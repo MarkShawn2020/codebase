@@ -1891,6 +1891,36 @@ __metadata:
   languageName: unknown
   linkType: soft
 
+"@cs-magic/common-frontend@workspace:^, @cs-magic/common-frontend@workspace:packages-frontend/common":
+  version: 0.0.0-use.local
+  resolution: "@cs-magic/common-frontend@workspace:packages-frontend/common"
+  dependencies:
+    "@cs-magic/assets": "workspace:^"
+    "@cs-magic/common": "workspace:^"
+    "@cs-magic/next-hooks": "workspace:^"
+    "@cs-magic/react-hooks": "workspace:^"
+    "@cs-magic/swot-backend": "workspace:^"
+    "@tanstack/react-table": "npm:^8.20.1"
+    "@types/ansicolors": "npm:^0"
+    "@types/lodash-es": "npm:^4"
+    "@types/react": "npm:^18.3.0"
+    "@types/react-dom": "npm:^18.3.0"
+    "@uiw/react-md-editor": "npm:^4.0.4"
+    ansicolors: "npm:^0.3.2"
+    jotai: "npm:^2.9.1"
+    lodash-es: "npm:^4.17.21"
+    lucide-react: "npm:^0.424.0"
+    next: "npm:^14.2.5"
+    next-auth: "npm:^4.24.7"
+    pusher-js: "npm:^8.4.0-rc2"
+    react: "npm:*"
+    react-dom: "npm:^18.3.1"
+    react-use: "npm:^17.5.1"
+    sonner: "npm:^1.5.0"
+    wechaty-puppet: "workspace:^"
+  languageName: unknown
+  linkType: soft
+
 "@cs-magic/common@workspace:^, @cs-magic/common@workspace:packages/common":
   version: 0.0.0-use.local
   resolution: "@cs-magic/common@workspace:packages/common"
@@ -1945,9 +1975,9 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"@cs-magic/eval-ai@workspace:app-eval-ai/eval-ai":
+"@cs-magic/eval-ai@workspace:app-eval-ai/web":
   version: 0.0.0-use.local
-  resolution: "@cs-magic/eval-ai@workspace:app-eval-ai/eval-ai"
+  resolution: "@cs-magic/eval-ai@workspace:app-eval-ai/web"
   dependencies:
     "@alicloud/dysmsapi20170525": "npm:2.0.24"
     "@alicloud/dysmsapi20180501": "npm:^1.0.4"
@@ -2056,12 +2086,12 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"@cs-magic/home@workspace:app-home/home":
+"@cs-magic/home@workspace:app-home/web":
   version: 0.0.0-use.local
-  resolution: "@cs-magic/home@workspace:app-home/home"
+  resolution: "@cs-magic/home@workspace:app-home/web"
   dependencies:
     "@babel/core": "npm:^7.25.2"
-    "@cs-magic/swot-frontend": "workspace:^"
+    "@cs-magic/common-frontend": "workspace:^"
     "@dword-design/eslint-plugin-import-alias": "npm:^4.0.8"
     "@hookform/resolvers": "npm:^3.1.1"
     "@mantine/hooks": "npm:^6.0.17"
@@ -2157,9 +2187,9 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"@cs-magic/next-auth@workspace:packages/next-auth":
+"@cs-magic/next-auth@workspace:packages-frontend/next-auth":
   version: 0.0.0-use.local
-  resolution: "@cs-magic/next-auth@workspace:packages/next-auth"
+  resolution: "@cs-magic/next-auth@workspace:packages-frontend/next-auth"
   dependencies:
     "@types/react": "npm:^18.3.0"
     "@types/react-dom": "npm:^18.3.0"
@@ -2170,9 +2200,9 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"@cs-magic/next-hooks@workspace:^, @cs-magic/next-hooks@workspace:packages/next-hooks":
+"@cs-magic/next-hooks@workspace:^, @cs-magic/next-hooks@workspace:packages-frontend/next-hooks":
   version: 0.0.0-use.local
-  resolution: "@cs-magic/next-hooks@workspace:packages/next-hooks"
+  resolution: "@cs-magic/next-hooks@workspace:packages-frontend/next-hooks"
   dependencies:
     "@cs-magic/common": "workspace:^"
     "@types/ansicolors": "npm:^0"
@@ -2197,9 +2227,9 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"@cs-magic/react-hooks@workspace:^, @cs-magic/react-hooks@workspace:packages/react-hooks":
+"@cs-magic/react-hooks@workspace:^, @cs-magic/react-hooks@workspace:packages-frontend/react-hooks":
   version: 0.0.0-use.local
-  resolution: "@cs-magic/react-hooks@workspace:packages/react-hooks"
+  resolution: "@cs-magic/react-hooks@workspace:packages-frontend/react-hooks"
   dependencies:
     "@cs-magic/common": "workspace:^"
     "@types/ansicolors": "npm:^0"
@@ -2217,9 +2247,9 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"@cs-magic/react-ui@workspace:packages/react-ui":
+"@cs-magic/react-ui@workspace:packages-frontend/react-ui":
   version: 0.0.0-use.local
-  resolution: "@cs-magic/react-ui@workspace:packages/react-ui"
+  resolution: "@cs-magic/react-ui@workspace:packages-frontend/react-ui"
   dependencies:
     "@cs-magic/common": "workspace:^"
     "@cs-magic/react-hooks": "workspace:^"
@@ -2263,9 +2293,9 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"@cs-magic/swot-backend@workspace:^, @cs-magic/swot-backend@workspace:app-swot/swot-backend":
+"@cs-magic/swot-backend@workspace:^, @cs-magic/swot-backend@workspace:app-swot/backend":
   version: 0.0.0-use.local
-  resolution: "@cs-magic/swot-backend@workspace:app-swot/swot-backend"
+  resolution: "@cs-magic/swot-backend@workspace:app-swot/backend"
   dependencies:
     "@cs-magic/common": "workspace:^"
     "@cs-magic/llm": "workspace:^"
@@ -2282,47 +2312,17 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"@cs-magic/swot-frontend@workspace:^, @cs-magic/swot-frontend@workspace:app-swot/swot-frontend":
+"@cs-magic/swot-web@workspace:app-swot/frontend-web":
   version: 0.0.0-use.local
-  resolution: "@cs-magic/swot-frontend@workspace:app-swot/swot-frontend"
-  dependencies:
-    "@cs-magic/assets": "workspace:^"
-    "@cs-magic/common": "workspace:^"
-    "@cs-magic/next-hooks": "workspace:^"
-    "@cs-magic/react-hooks": "workspace:^"
-    "@cs-magic/swot-backend": "workspace:^"
-    "@tanstack/react-table": "npm:^8.20.1"
-    "@types/ansicolors": "npm:^0"
-    "@types/lodash-es": "npm:^4"
-    "@types/react": "npm:^18.3.0"
-    "@types/react-dom": "npm:^18.3.0"
-    "@uiw/react-md-editor": "npm:^4.0.4"
-    ansicolors: "npm:^0.3.2"
-    jotai: "npm:^2.9.1"
-    lodash-es: "npm:^4.17.21"
-    lucide-react: "npm:^0.424.0"
-    next: "npm:^14.2.5"
-    next-auth: "npm:^4.24.7"
-    pusher-js: "npm:^8.4.0-rc2"
-    react: "npm:^18.3.1"
-    react-dom: "npm:^18.3.1"
-    react-use: "npm:^17.5.1"
-    sonner: "npm:^1.5.0"
-    wechaty-puppet: "workspace:^"
-  languageName: unknown
-  linkType: soft
-
-"@cs-magic/swot-web@workspace:app-swot/swot-web":
-  version: 0.0.0-use.local
-  resolution: "@cs-magic/swot-web@workspace:app-swot/swot-web"
+  resolution: "@cs-magic/swot-web@workspace:app-swot/frontend-web"
   dependencies:
     "@alicloud/dysmsapi20170525": "npm:2.0.24"
     "@alicloud/dysmsapi20180501": "npm:^1.0.4"
     "@auth/prisma-adapter": "npm:^1.4.0"
     "@cs-magic/common": "workspace:^"
+    "@cs-magic/common-frontend": "workspace:^"
     "@cs-magic/llm": "workspace:^"
     "@cs-magic/swot-backend": "workspace:^"
-    "@cs-magic/swot-frontend": "workspace:^"
     "@emotion/react": "npm:^11.11.4"
     "@hookform/resolvers": "npm:^3.3.4"
     "@langchain/core": "npm:^0.1.32"
@@ -31731,15 +31731,15 @@ __metadata:
   languageName: node
   linkType: hard
 
-"swot-pc@workspace:app-swot/swot-pc":
+"swot-pc@workspace:app-swot/frontend-pc":
   version: 0.0.0-use.local
-  resolution: "swot-pc@workspace:app-swot/swot-pc"
+  resolution: "swot-pc@workspace:app-swot/frontend-pc"
   dependencies:
     "@babel/core": "npm:^7.24.8"
     "@babel/preset-env": "npm:^7.24.8"
     "@babel/register": "npm:^7.24.6"
+    "@cs-magic/common-frontend": "workspace:^"
     "@cs-magic/swot-backend": "workspace:^"
-    "@cs-magic/swot-frontend": "workspace:^"
     "@electron-toolkit/eslint-config-prettier": "npm:^2.0.0"
     "@electron-toolkit/eslint-config-ts": "npm:^2.0.0"
     "@electron-toolkit/preload": "npm:^3.0.1"

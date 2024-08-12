@@ -2888,12 +2888,6 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"@cs-magic/prisma@workspace:packages/prisma":
-  version: 0.0.0-use.local
-  resolution: "@cs-magic/prisma@workspace:packages/prisma"
-  languageName: unknown
-  linkType: soft
-
 "@cs-magic/react-hooks@workspace:^, @cs-magic/react-hooks@workspace:packages-frontend/react-hooks":
   version: 0.0.0-use.local
   resolution: "@cs-magic/react-hooks@workspace:packages-frontend/react-hooks"
@@ -5818,7 +5812,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@prisma/generator-helper@npm:^5.4.2":
+"@prisma/generator-helper@npm:^5.14.0, @prisma/generator-helper@npm:^5.4.2":
   version: 5.18.0
   resolution: "@prisma/generator-helper@npm:5.18.0"
   dependencies:
@@ -15904,6 +15898,7 @@ __metadata:
     typescript-transform-paths: "npm:^3.4.7"
     webpack: "npm:^5.93.0"
     webpack-bundle-analyzer: "npm:^4.10.2"
+    zod-prisma-types: "npm:^3.1.8"
   languageName: unknown
   linkType: soft
 
@@ -39075,6 +39070,20 @@ __metadata:
   bin:
     zod-prisma-types: dist/bin.js
   checksum: 10c0/1428b8d77102dd6d85dadc41c176c68b0eca2cea1f99271daaa654b0daa68c701a6598a858020f67a494a3965162bfafc73021500742f374768fac722e8e4caa
+  languageName: node
+  linkType: hard
+
+"zod-prisma-types@npm:^3.1.8":
+  version: 3.1.8
+  resolution: "zod-prisma-types@npm:3.1.8"
+  dependencies:
+    "@prisma/generator-helper": "npm:^5.14.0"
+    code-block-writer: "npm:^12.0.0"
+    lodash: "npm:^4.17.21"
+    zod: "npm:^3.23.8"
+  bin:
+    zod-prisma-types: dist/bin.js
+  checksum: 10c0/b9bd0d339951dc3516b721f5ce0aba524b65f0c87ec7746c56547eddfc3e3e75ba9788ddb413072c3572248adc840babfd905b7c4be007a5bfa17c46d37b1dd6
   languageName: node
   linkType: hard
 

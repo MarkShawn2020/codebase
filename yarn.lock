@@ -2718,12 +2718,12 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "@cs-magic/next-auth@workspace:packages_frontend/next-auth"
   dependencies:
-    "@types/react": "npm:^18.3.0"
-    "@types/react-dom": "npm:^18.3.0"
+    "@types/react": "npm:*"
+    "@types/react-dom": "npm:*"
     next: "npm:^14.2.5"
     next-auth: "npm:^4.24.7"
-    react: "npm:^18.3.1"
-    react-dom: "npm:^18.3.1"
+    react: "npm:*"
+    react-dom: "npm:*"
   languageName: unknown
   linkType: soft
 

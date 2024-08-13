@@ -2410,15 +2410,15 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@cs-magic/assets@workspace:^, @cs-magic/assets@workspace:packages-frontend/assets":
+"@cs-magic/assets@workspace:^, @cs-magic/assets@workspace:packages_frontend/assets":
   version: 0.0.0-use.local
-  resolution: "@cs-magic/assets@workspace:packages-frontend/assets"
+  resolution: "@cs-magic/assets@workspace:packages_frontend/assets"
   languageName: unknown
   linkType: soft
 
-"@cs-magic/common-frontend@workspace:^, @cs-magic/common-frontend@workspace:packages-frontend/common":
+"@cs-magic/common-frontend@workspace:^, @cs-magic/common-frontend@workspace:packages_frontend/common":
   version: 0.0.0-use.local
-  resolution: "@cs-magic/common-frontend@workspace:packages-frontend/common"
+  resolution: "@cs-magic/common-frontend@workspace:packages_frontend/common"
   dependencies:
     "@cs-magic/assets": "workspace:^"
     "@cs-magic/common": "workspace:^"
@@ -2500,9 +2500,9 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"@cs-magic/eval-ai@workspace:app-eval-ai/web":
+"@cs-magic/eval-ai@workspace:app_eval-ai/web":
   version: 0.0.0-use.local
-  resolution: "@cs-magic/eval-ai@workspace:app-eval-ai/web"
+  resolution: "@cs-magic/eval-ai@workspace:app_eval-ai/web"
   dependencies:
     "@alicloud/dysmsapi20170525": "npm:2.0.24"
     "@alicloud/dysmsapi20180501": "npm:^1.0.4"
@@ -2611,9 +2611,9 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"@cs-magic/home@workspace:app-home/web":
+"@cs-magic/home@workspace:app_home/web":
   version: 0.0.0-use.local
-  resolution: "@cs-magic/home@workspace:app-home/web"
+  resolution: "@cs-magic/home@workspace:app_home/web"
   dependencies:
     "@babel/core": "npm:^7.25.2"
     "@cs-magic/assets": "workspace:^"
@@ -2714,9 +2714,9 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"@cs-magic/next-auth@workspace:packages-frontend/next-auth":
+"@cs-magic/next-auth@workspace:packages_frontend/next-auth":
   version: 0.0.0-use.local
-  resolution: "@cs-magic/next-auth@workspace:packages-frontend/next-auth"
+  resolution: "@cs-magic/next-auth@workspace:packages_frontend/next-auth"
   dependencies:
     "@types/react": "npm:^18.3.0"
     "@types/react-dom": "npm:^18.3.0"
@@ -2727,9 +2727,9 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"@cs-magic/next-hooks@workspace:^, @cs-magic/next-hooks@workspace:packages-frontend/next-hooks":
+"@cs-magic/next-hooks@workspace:^, @cs-magic/next-hooks@workspace:packages_frontend/next-hooks":
   version: 0.0.0-use.local
-  resolution: "@cs-magic/next-hooks@workspace:packages-frontend/next-hooks"
+  resolution: "@cs-magic/next-hooks@workspace:packages_frontend/next-hooks"
   dependencies:
     "@cs-magic/common": "workspace:^"
     "@types/ansicolors": "npm:^0"
@@ -2748,9 +2748,9 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"@cs-magic/poketto@workspace:app-poketto/web":
+"@cs-magic/poketto@workspace:app_poketto/web":
   version: 0.0.0-use.local
-  resolution: "@cs-magic/poketto@workspace:app-poketto/web"
+  resolution: "@cs-magic/poketto@workspace:app_poketto/web"
   dependencies:
     "@alicloud/dysmsapi20170525": "npm:^2.0.24"
     "@aws-sdk/client-ses": "npm:^3.395.0"
@@ -2888,9 +2888,9 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"@cs-magic/react-hooks@workspace:^, @cs-magic/react-hooks@workspace:packages-frontend/react-hooks":
+"@cs-magic/react-hooks@workspace:^, @cs-magic/react-hooks@workspace:packages_frontend/react-hooks":
   version: 0.0.0-use.local
-  resolution: "@cs-magic/react-hooks@workspace:packages-frontend/react-hooks"
+  resolution: "@cs-magic/react-hooks@workspace:packages_frontend/react-hooks"
   dependencies:
     "@cs-magic/common": "workspace:^"
     "@types/ansicolors": "npm:^0"
@@ -2908,9 +2908,9 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"@cs-magic/react-ui@workspace:^, @cs-magic/react-ui@workspace:packages-frontend/react-ui":
+"@cs-magic/react-ui@workspace:^, @cs-magic/react-ui@workspace:packages_frontend/react-ui":
   version: 0.0.0-use.local
-  resolution: "@cs-magic/react-ui@workspace:packages-frontend/react-ui"
+  resolution: "@cs-magic/react-ui@workspace:packages_frontend/react-ui"
   dependencies:
     "@cs-magic/common": "workspace:^"
     "@cs-magic/react-hooks": "workspace:^"
@@ -2962,9 +2962,9 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"@cs-magic/swot-backend@workspace:^, @cs-magic/swot-backend@workspace:app-swot/backend":
+"@cs-magic/swot-backend@workspace:^, @cs-magic/swot-backend@workspace:app_swot/backend":
   version: 0.0.0-use.local
-  resolution: "@cs-magic/swot-backend@workspace:app-swot/backend"
+  resolution: "@cs-magic/swot-backend@workspace:app_swot/backend"
   dependencies:
     "@cs-magic/common": "workspace:^"
     "@cs-magic/llm": "workspace:^"
@@ -2981,9 +2981,9 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"@cs-magic/swot-web@workspace:app-swot/frontend-web":
+"@cs-magic/swot-web@workspace:app_swot/frontend-web":
   version: 0.0.0-use.local
-  resolution: "@cs-magic/swot-web@workspace:app-swot/frontend-web"
+  resolution: "@cs-magic/swot-web@workspace:app_swot/frontend-web"
   dependencies:
     "@alicloud/dysmsapi20170525": "npm:2.0.24"
     "@alicloud/dysmsapi20180501": "npm:^1.0.4"
@@ -3080,7 +3080,7 @@ __metadata:
     lucide-react: "npm:^0.399.0"
     markmap-common: "npm:^0.16.0"
     markmap-lib: "npm:^0.16.1"
-    markmap-view: "patch:markmap-view@npm%3A0.16.0#~/.yarn/patches/markmap-view-npm-0.16.0-f358605936.patch"
+    markmap-view: "npm:*"
     modern-screenshot: "npm:^4.4.38"
     moment: "npm:^2.30.1"
     mustache: "npm:^4.2.0"
@@ -3103,9 +3103,9 @@ __metadata:
     qrcode-terminal: "npm:^0.12.0"
     qrcode.react: "npm:^3.1.0"
     raven: "npm:^2.6.4"
-    react: "npm:^18.3.1"
+    react: "npm:*"
     react-csv: "npm:^2.2.2"
-    react-dom: "npm:^18.3.1"
+    react-dom: "npm:*"
     react-hook-form: "npm:^7.50.1"
     react-icons: "npm:^5.0.1"
     react-markdown: "npm:^9.0.1"
@@ -3136,7 +3136,7 @@ __metadata:
     wtfnode: "npm:^0.9.1"
     yaml: "npm:^2.4.1"
     zhipuai-sdk-nodejs-v4: "npm:^0.1.12"
-    zod: "npm:3.21.1"
+    zod: "npm:*"
     zustand: "npm:^4.5.2"
   languageName: unknown
   linkType: soft
@@ -17319,12 +17319,6 @@ __metadata:
   conditions: os=darwin
   languageName: node
   linkType: hard
-
-"doc2qa@workspace:private-app-doc2qa/doc2qa":
-  version: 0.0.0-use.local
-  resolution: "doc2qa@workspace:private-app-doc2qa/doc2qa"
-  languageName: unknown
-  linkType: soft
 
 "doctrine@npm:^2.1.0":
   version: 2.1.0
@@ -35273,9 +35267,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"swot-pc@workspace:app-swot/frontend-pc":
+"swot-pc@workspace:app_swot/frontend-pc":
   version: 0.0.0-use.local
-  resolution: "swot-pc@workspace:app-swot/frontend-pc"
+  resolution: "swot-pc@workspace:app_swot/frontend-pc"
   dependencies:
     "@babel/core": "npm:^7.24.8"
     "@babel/preset-env": "npm:^7.24.8"

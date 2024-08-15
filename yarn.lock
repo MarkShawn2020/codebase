@@ -2446,6 +2446,7 @@ __metadata:
   resolution: "@cs-magic/common@workspace:packages/common"
   dependencies:
     "@alicloud/dysmsapi20170525": "npm:^3.0.0"
+    "@types/ali-oss": "npm:^6.16.11"
     "@types/ansicolors": "npm:^0"
     "@types/async-lock": "npm:^1.4.2"
     "@types/lodash": "npm:^4.14.202"

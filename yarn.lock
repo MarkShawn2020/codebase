@@ -2411,9 +2411,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@cs-magic/common-frontend@workspace:^, @cs-magic/common-frontend@workspace:packages_frontend/common":
+"@cs-magic/common-frontend@workspace:^, @cs-magic/common-frontend@workspace:app_swot/frontend-common":
   version: 0.0.0-use.local
-  resolution: "@cs-magic/common-frontend@workspace:packages_frontend/common"
+  resolution: "@cs-magic/common-frontend@workspace:app_swot/frontend-common"
   dependencies:
     "@cs-magic/common": "workspace:^"
     "@cs-magic/next-hooks": "workspace:^"

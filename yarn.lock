@@ -2715,6 +2715,8 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "@cs-magic/next@workspace:packages_frontend/next"
   dependencies:
+    "@cs-magic/common": "workspace:^"
+    "@cs-magic/react": "workspace:^"
     "@types/react": "npm:*"
     "@types/react-dom": "npm:*"
     next: "npm:^14.2.5"

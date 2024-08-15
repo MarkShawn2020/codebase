@@ -2703,7 +2703,9 @@ __metadata:
   resolution: "@cs-magic/llm@workspace:packages/llm"
   dependencies:
     "@cs-magic/common": "workspace:^"
+    "@types/js-yaml": "npm:^4.0.9"
     js-md5: "npm:^0.8.3"
+    js-yaml: "npm:^4.1.0"
     openai: "npm:^4.52.7"
     tiktoken: "npm:^1.0.15"
     ts-patch: "npm:^3.2.1"
@@ -10635,7 +10637,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/js-yaml@npm:^4":
+"@types/js-yaml@npm:^4, @types/js-yaml@npm:^4.0.9":
   version: 4.0.9
   resolution: "@types/js-yaml@npm:4.0.9"
   checksum: 10c0/24de857aa8d61526bbfbbaa383aa538283ad17363fcd5bb5148e2c7f604547db36646440e739d78241ed008702a8920665d1add5618687b6743858fae00da211

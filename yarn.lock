@@ -2522,7 +2522,7 @@ __metadata:
     tailwind-merge: "npm:^2.4.0"
     tencentcloud-sdk-nodejs-sms: "npm:^4.0.882"
     triple-beam: "npm:^1.4.1"
-    ts-patch: "npm:^3.2.1"
+    ts-patch: "npm:*"
     ulog: "npm:2.0.0-beta.19"
     universal-logger: "npm:^1.0.1"
     util: "npm:^0.12.5"
@@ -2745,7 +2745,7 @@ __metadata:
     js-yaml: "npm:^4.1.0"
     openai: "npm:^4.52.7"
     tiktoken: "npm:^1.0.15"
-    ts-patch: "npm:^3.2.1"
+    ts-patch: "npm:*"
     web-streams-polyfill: "npm:^4.0.0"
     zhipuai-sdk-nodejs-v4: "npm:^0.1.12"
   languageName: unknown
@@ -2764,7 +2764,7 @@ __metadata:
     next-auth: "npm:^4.24.7"
     react: "npm:*"
     react-dom: "npm:*"
-    ts-patch: "npm:^3.2.1"
+    ts-patch: "npm:*"
   languageName: unknown
   linkType: soft
 
@@ -3091,7 +3091,7 @@ __metadata:
     tailwind-merge: "npm:^2.4.0"
     tailwindcss: "npm:^3.4.7"
     tailwindcss-animate: "npm:^1.0.7"
-    ts-patch: "npm:^3.2.1"
+    ts-patch: "npm:*"
     unist-util-visit-parents: "npm:^6.0.1"
     zod: "npm:^3.23.8"
   languageName: unknown
@@ -16494,6 +16494,7 @@ __metadata:
     "@zerollup/ts-transform-paths": "npm:^1.7.18"
     async-lock: "npm:^1.4.1"
     copyfiles: "npm:^2.4.1"
+    cross-env: "npm:^7.0.3"
     eslint: "npm:^8"
     gnomon: "npm:^1.5.0"
     jest: "npm:^29.7.0"
@@ -37646,7 +37647,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"ts-patch@npm:^3.2.1":
+"ts-patch@npm:*, ts-patch@npm:^3.2.1":
   version: 3.2.1
   resolution: "ts-patch@npm:3.2.1"
   dependencies:

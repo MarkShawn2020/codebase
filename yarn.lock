@@ -2448,36 +2448,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@cs-magic/common-frontend@workspace:^, @cs-magic/common-frontend@workspace:app_swot/frontend-common":
-  version: 0.0.0-use.local
-  resolution: "@cs-magic/common-frontend@workspace:app_swot/frontend-common"
-  dependencies:
-    "@cs-magic/common": "workspace:^"
-    "@cs-magic/next": "workspace:^"
-    "@cs-magic/react": "workspace:^"
-    "@cs-magic/swot-backend": "workspace:^"
-    "@tanstack/react-table": "npm:^8.20.1"
-    "@types/ansicolors": "npm:^0"
-    "@types/lodash-es": "npm:^4"
-    "@types/react": "npm:^18.3.0"
-    "@types/react-dom": "npm:^18.3.0"
-    "@uiw/react-md-editor": "npm:^4.0.4"
-    ansicolors: "npm:^0.3.2"
-    jotai: "npm:^2.9.1"
-    lodash-es: "npm:^4.17.21"
-    lucide-react: "npm:^0.424.0"
-    next: "npm:^14.2.5"
-    next-auth: "npm:^4.24.7"
-    pusher-js: "npm:^8.4.0-rc2"
-    react: "npm:*"
-    react-dom: "npm:^18.3.1"
-    react-use: "npm:^17.5.1"
-    sonner: "npm:^1.5.0"
-    ts-patch: "npm:^3.2.1"
-    wechaty-puppet: "workspace:^"
-  languageName: unknown
-  linkType: soft
-
 "@cs-magic/common@workspace:^, @cs-magic/common@workspace:packages/common":
   version: 0.0.0-use.local
   resolution: "@cs-magic/common@workspace:packages/common"
@@ -2522,7 +2492,6 @@ __metadata:
     tailwind-merge: "npm:^2.4.0"
     tencentcloud-sdk-nodejs-sms: "npm:^4.0.882"
     triple-beam: "npm:^1.4.1"
-    ts-patch: "npm:*"
     ulog: "npm:2.0.0-beta.19"
     universal-logger: "npm:^1.0.1"
     util: "npm:^0.12.5"
@@ -2651,7 +2620,6 @@ __metadata:
   resolution: "@cs-magic/home@workspace:app_home/web"
   dependencies:
     "@babel/core": "npm:^7.25.2"
-    "@cs-magic/common-frontend": "workspace:^"
     "@cs-magic/react": "workspace:^"
     "@dword-design/eslint-plugin-import-alias": "npm:^4.0.8"
     "@hookform/resolvers": "npm:^3.1.1"
@@ -2745,7 +2713,6 @@ __metadata:
     js-yaml: "npm:^4.1.0"
     openai: "npm:^4.52.7"
     tiktoken: "npm:^1.0.15"
-    ts-patch: "npm:*"
     web-streams-polyfill: "npm:^4.0.0"
     zhipuai-sdk-nodejs-v4: "npm:^0.1.12"
   languageName: unknown
@@ -2764,7 +2731,6 @@ __metadata:
     next-auth: "npm:^4.24.7"
     react: "npm:*"
     react-dom: "npm:*"
-    ts-patch: "npm:*"
   languageName: unknown
   linkType: soft
 
@@ -3091,7 +3057,6 @@ __metadata:
     tailwind-merge: "npm:^2.4.0"
     tailwindcss: "npm:^3.4.7"
     tailwindcss-animate: "npm:^1.0.7"
-    ts-patch: "npm:*"
     unist-util-visit-parents: "npm:^6.0.1"
     zod: "npm:^3.23.8"
   languageName: unknown
@@ -3109,11 +3074,41 @@ __metadata:
     node-schedule: "npm:^2.1.1"
     prisma: "npm:^5.17.0"
     qrcode-terminal: "npm:^0.12.0"
-    ts-patch: "npm:^3.2.1"
     wechaty: "workspace:^"
     wechaty-puppet: "workspace:^"
     wechaty-puppet-service: "npm:1.18.2"
     wechaty-puppet-wechat4u: "workspace:^"
+  languageName: unknown
+  linkType: soft
+
+"@cs-magic/swot-frontend-common@workspace:^, @cs-magic/swot-frontend-common@workspace:app_swot/frontend-common":
+  version: 0.0.0-use.local
+  resolution: "@cs-magic/swot-frontend-common@workspace:app_swot/frontend-common"
+  dependencies:
+    "@cs-magic/common": "workspace:^"
+    "@cs-magic/next": "workspace:^"
+    "@cs-magic/react": "workspace:^"
+    "@cs-magic/swot-backend": "workspace:^"
+    "@tanstack/react-table": "npm:^8.20.1"
+    "@types/ansicolors": "npm:^0"
+    "@types/lodash-es": "npm:^4"
+    "@types/react": "npm:^18.3.0"
+    "@types/react-dom": "npm:^18.3.0"
+    "@uiw/react-md-editor": "npm:^4.0.4"
+    ansicolors: "npm:^0.3.2"
+    copyfiles: "npm:*"
+    jotai: "npm:^2.9.1"
+    lodash-es: "npm:^4.17.21"
+    lucide-react: "npm:^0.424.0"
+    next: "npm:^14.2.5"
+    next-auth: "npm:^4.24.7"
+    pusher-js: "npm:^8.4.0-rc2"
+    react: "npm:*"
+    react-dom: "npm:^18.3.1"
+    react-use: "npm:^17.5.1"
+    sonner: "npm:^1.5.0"
+    ts-patch: "npm:*"
+    wechaty-puppet: "workspace:^"
   languageName: unknown
   linkType: soft
 
@@ -3125,11 +3120,11 @@ __metadata:
     "@alicloud/dysmsapi20180501": "npm:^1.0.4"
     "@auth/prisma-adapter": "npm:^1.4.0"
     "@cs-magic/common": "workspace:^"
-    "@cs-magic/common-frontend": "workspace:^"
     "@cs-magic/llm": "workspace:^"
     "@cs-magic/next": "workspace:^"
     "@cs-magic/react": "workspace:^"
     "@cs-magic/swot-backend": "workspace:^"
+    "@cs-magic/swot-frontend-common": "workspace:^"
     "@emotion/react": "npm:^11.11.4"
     "@hookform/resolvers": "npm:^3.3.4"
     "@langchain/core": "npm:^0.1.32"
@@ -16158,7 +16153,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"copyfiles@npm:^2.4.1":
+"copyfiles@npm:*, copyfiles@npm:^2.4.1":
   version: 2.4.1
   resolution: "copyfiles@npm:2.4.1"
   dependencies:
@@ -36509,8 +36504,8 @@ __metadata:
     "@babel/core": "npm:^7.24.8"
     "@babel/preset-env": "npm:^7.24.8"
     "@babel/register": "npm:^7.24.6"
-    "@cs-magic/common-frontend": "workspace:^"
     "@cs-magic/swot-backend": "workspace:^"
+    "@cs-magic/swot-frontend-common": "workspace:^"
     "@electron-toolkit/eslint-config-prettier": "npm:^2.0.0"
     "@electron-toolkit/eslint-config-ts": "npm:^2.0.0"
     "@electron-toolkit/preload": "npm:^3.0.1"

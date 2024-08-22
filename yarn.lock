@@ -224,32 +224,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@auth/core@npm:0.34.2":
-  version: 0.34.2
-  resolution: "@auth/core@npm:0.34.2"
-  dependencies:
-    "@panva/hkdf": "npm:^1.1.1"
-    "@types/cookie": "npm:0.6.0"
-    cookie: "npm:0.6.0"
-    jose: "npm:^5.1.3"
-    oauth4webapi: "npm:^2.10.4"
-    preact: "npm:10.11.3"
-    preact-render-to-string: "npm:5.2.3"
-  peerDependencies:
-    "@simplewebauthn/browser": ^9.0.1
-    "@simplewebauthn/server": ^9.0.2
-    nodemailer: ^6.8.0
-  peerDependenciesMeta:
-    "@simplewebauthn/browser":
-      optional: true
-    "@simplewebauthn/server":
-      optional: true
-    nodemailer:
-      optional: true
-  checksum: 10c0/c4f0899f652200fd8516fc9c715dbc0c704fd7b8f99a4470fe398052c385284896cbc18e52028a8688e4d274a4972cff8acc50b28965268904679bef8ff15707
-  languageName: node
-  linkType: hard
-
 "@auth/prisma-adapter@npm:^1.4.0":
   version: 1.6.0
   resolution: "@auth/prisma-adapter@npm:1.6.0"
@@ -258,17 +232,6 @@ __metadata:
   peerDependencies:
     "@prisma/client": ">=2.26.0 || >=3 || >=4 || >=5"
   checksum: 10c0/d6b922886f76be95aaed09b83d8f1024bb8d974142cb2d741d30d0a2b51413ef5f9c0d5f73fa30ee0435405a1166d18085ca959c4170043cfe375f95d1637b57
-  languageName: node
-  linkType: hard
-
-"@auth/prisma-adapter@npm:^2.4.2":
-  version: 2.4.2
-  resolution: "@auth/prisma-adapter@npm:2.4.2"
-  dependencies:
-    "@auth/core": "npm:0.34.2"
-  peerDependencies:
-    "@prisma/client": ">=2.26.0 || >=3 || >=4 || >=5"
-  checksum: 10c0/c291f4e0cb7e07a36146d0c4d39d2fc95d77c2b414c562c8b552dfddd8cb86da24b76deec3eaf31af89a3a4e06f3337c2f476f866b56522345b2a999357900c7
   languageName: node
   linkType: hard
 
@@ -2718,22 +2681,6 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"@cs-magic/next@workspace:^, @cs-magic/next@workspace:packages_frontend/next":
-  version: 0.0.0-use.local
-  resolution: "@cs-magic/next@workspace:packages_frontend/next"
-  dependencies:
-    "@auth/prisma-adapter": "npm:^2.4.2"
-    "@cs-magic/common": "workspace:^"
-    "@cs-magic/react": "workspace:^"
-    "@types/react": "npm:*"
-    "@types/react-dom": "npm:*"
-    next: "npm:^14.2.5"
-    next-auth: "npm:^4.24.7"
-    react: "npm:*"
-    react-dom: "npm:*"
-  languageName: unknown
-  linkType: soft
-
 "@cs-magic/open-agent-ui@workspace:app_thinkow/open-agent-ui":
   version: 0.0.0-use.local
   resolution: "@cs-magic/open-agent-ui@workspace:app_thinkow/open-agent-ui"
@@ -3041,6 +2988,7 @@ __metadata:
     cmdk: "npm:1.0.0"
     eslint: "npm:*"
     eslint-config-next: "npm:^14.2.5"
+    i18next: "npm:^23.14.0"
     lucide-react: "npm:^0.417.0"
     next: "npm:^14.2.6"
     next-i18next: "npm:^15.3.1"
@@ -3059,6 +3007,7 @@ __metadata:
     tailwind-merge: "npm:^2.4.0"
     tailwindcss: "npm:^3.4.7"
     tailwindcss-animate: "npm:^1.0.7"
+    typescript: "npm:^5.5.4"
     unist-util-visit-parents: "npm:^6.0.1"
     zod: "npm:^3.23.8"
   languageName: unknown
@@ -3088,7 +3037,6 @@ __metadata:
   resolution: "@cs-magic/swot-frontend-common@workspace:app_swot/frontend-common"
   dependencies:
     "@cs-magic/common": "workspace:^"
-    "@cs-magic/next": "workspace:^"
     "@cs-magic/react": "workspace:^"
     "@cs-magic/swot-backend": "workspace:^"
     "@tanstack/react-table": "npm:^8.20.1"
@@ -3123,7 +3071,6 @@ __metadata:
     "@auth/prisma-adapter": "npm:^1.4.0"
     "@cs-magic/common": "workspace:^"
     "@cs-magic/llm": "workspace:^"
-    "@cs-magic/next": "workspace:^"
     "@cs-magic/react": "workspace:^"
     "@cs-magic/swot-backend": "workspace:^"
     "@cs-magic/swot-frontend-common": "workspace:^"
@@ -22775,6 +22722,15 @@ __metadata:
   languageName: node
   linkType: hard
 
+"i18next@npm:^23.14.0":
+  version: 23.14.0
+  resolution: "i18next@npm:23.14.0"
+  dependencies:
+    "@babel/runtime": "npm:^7.23.2"
+  checksum: 10c0/c26638a816e6213e515c158b17894ca3c54693911e1dc637cd279e11d53f8ded2494c3dcc6e2e94c639987ef63718193a1e2b4f3d5873fbcf89f266582140cd5
+  languageName: node
+  linkType: hard
+
 "i18next@npm:^23.4.6":
   version: 23.12.3
   resolution: "i18next@npm:23.12.3"
@@ -30150,7 +30106,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"oauth4webapi@npm:^2.10.4, oauth4webapi@npm:^2.4.0":
+"oauth4webapi@npm:^2.4.0":
   version: 2.11.1
   resolution: "oauth4webapi@npm:2.11.1"
   checksum: 10c0/69446298b68ac18179a4e8c818e2ad5610e39271405b8af7df1288e8180d6b9ca4051bd7563d9be1e94aa558453290051fdc7a441ed91a3ac238028908660a79

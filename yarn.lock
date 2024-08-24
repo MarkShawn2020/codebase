@@ -2473,7 +2473,6 @@ __metadata:
     "@alicloud/dysmsapi20170525": "npm:2.0.24"
     "@alicloud/dysmsapi20180501": "npm:^1.0.4"
     "@auth/prisma-adapter": "npm:^1.4.0"
-    "@cs-magic/prisma": "workspace:^"
     "@emotion/react": "npm:^11.11.4"
     "@hookform/resolvers": "npm:*"
     "@langchain/core": "npm:^0.1.32"
@@ -2686,7 +2685,6 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "@cs-magic/open-agent-ui@workspace:app_thinkow/open-agent-ui"
   dependencies:
-    "@cs-magic/prisma": "workspace:^"
     "@mantine/hooks": "npm:^7.2.2"
     "@microsoft/fetch-event-source": "npm:^2.0.1"
     "@monaco-editor/react": "npm:^4.6.0"
@@ -2824,7 +2822,6 @@ __metadata:
   dependencies:
     "@alicloud/dysmsapi20170525": "npm:^2.0.24"
     "@aws-sdk/client-ses": "npm:^3.395.0"
-    "@cs-magic/prisma": "workspace:^"
     "@cs-magic/react": "workspace:^"
     "@cs-magic/shadcn": "workspace:^"
     "@hookform/resolvers": "npm:*"
@@ -2943,14 +2940,6 @@ __metadata:
     zod: "npm:*"
     zod-prisma-types: "npm:^2.7.9"
     zustand: "npm:^4.4.1"
-  languageName: unknown
-  linkType: soft
-
-"@cs-magic/prisma@workspace:^, @cs-magic/prisma@workspace:packages/prisma":
-  version: 0.0.0-use.local
-  resolution: "@cs-magic/prisma@workspace:packages/prisma"
-  dependencies:
-    prisma: "npm:^5"
   languageName: unknown
   linkType: soft
 
@@ -16038,11 +16027,12 @@ __metadata:
     dotenv-cli: "npm:^7.4.2"
     patch-package: "npm:^8.0.0"
     pino-pretty: "npm:^11.2.1"
+    prisma: "npm:^5"
     rimraf: "npm:^6.0.1"
     shx: "npm:^0.3.4"
     ts-patch: "npm:^3.2.1"
     ttypescript: "npm:^1.5.15"
-    typescript-transform-paths: "npm:*"
+    typescript-transform-paths: "npm:^3.5.0"
   languageName: unknown
   linkType: soft
 

@@ -2880,6 +2880,7 @@ __metadata:
     eslint-plugin-react: "npm:^7.33.2"
     eslint-plugin-react-hooks: "npm:^4.6.0"
     eslint-plugin-regexp: "npm:^1.15.0"
+    file-loader: "npm:^6.2.0"
     framer-motion: "npm:^10.15.1"
     https-proxy-agent: "npm:^7.0.1"
     i18next: "npm:*"
@@ -2914,6 +2915,7 @@ __metadata:
     prisma: "npm:5"
     prisma-json-types-generator: "npm:^3.0.0-beta.4"
     raw-body: "npm:^2.5.2"
+    raw-loader: "npm:^4.0.2"
     react: "npm:*"
     react-dom: "npm:*"
     react-hook-form: "npm:*"
@@ -2938,6 +2940,7 @@ __metadata:
     ts-node-dev: "npm:^2.0.0"
     typescript: "npm:*"
     typewriter-effect: "npm:^2.20.1"
+    url-loader: "npm:^4.1.1"
     zod: "npm:*"
     zod-prisma-types: "npm:*"
     zustand: "npm:^4.4.1"
@@ -19735,7 +19738,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"file-loader@npm:^6.0.0":
+"file-loader@npm:^6.0.0, file-loader@npm:^6.2.0":
   version: 6.2.0
   resolution: "file-loader@npm:6.2.0"
   dependencies:
@@ -31274,6 +31277,18 @@ __metadata:
   languageName: node
   linkType: hard
 
+"raw-loader@npm:^4.0.2":
+  version: 4.0.2
+  resolution: "raw-loader@npm:4.0.2"
+  dependencies:
+    loader-utils: "npm:^2.0.0"
+    schema-utils: "npm:^3.0.0"
+  peerDependencies:
+    webpack: ^4.0.0 || ^5.0.0
+  checksum: 10c0/981ebe65e1cee7230300d21ba6dcd8bd23ea81ef4ad2b167c0f62d93deba347f27921d330be848634baab3831cf9f38900af6082d6416c2e937fe612fa6a74ff
+  languageName: node
+  linkType: hard
+
 "rc@npm:1.2.8, rc@npm:^1.2.7, rc@npm:^1.2.8":
   version: 1.2.8
   resolution: "rc@npm:1.2.8"
@@ -37233,7 +37248,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"url-loader@npm:^4.0.0":
+"url-loader@npm:^4.0.0, url-loader@npm:^4.1.1":
   version: 4.1.1
   resolution: "url-loader@npm:4.1.1"
   dependencies:

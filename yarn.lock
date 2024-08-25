@@ -224,6 +224,32 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@auth/core@npm:0.34.2":
+  version: 0.34.2
+  resolution: "@auth/core@npm:0.34.2"
+  dependencies:
+    "@panva/hkdf": "npm:^1.1.1"
+    "@types/cookie": "npm:0.6.0"
+    cookie: "npm:0.6.0"
+    jose: "npm:^5.1.3"
+    oauth4webapi: "npm:^2.10.4"
+    preact: "npm:10.11.3"
+    preact-render-to-string: "npm:5.2.3"
+  peerDependencies:
+    "@simplewebauthn/browser": ^9.0.1
+    "@simplewebauthn/server": ^9.0.2
+    nodemailer: ^6.8.0
+  peerDependenciesMeta:
+    "@simplewebauthn/browser":
+      optional: true
+    "@simplewebauthn/server":
+      optional: true
+    nodemailer:
+      optional: true
+  checksum: 10c0/c4f0899f652200fd8516fc9c715dbc0c704fd7b8f99a4470fe398052c385284896cbc18e52028a8688e4d274a4972cff8acc50b28965268904679bef8ff15707
+  languageName: node
+  linkType: hard
+
 "@auth/prisma-adapter@npm:^1.4.0":
   version: 1.6.0
   resolution: "@auth/prisma-adapter@npm:1.6.0"
@@ -232,6 +258,17 @@ __metadata:
   peerDependencies:
     "@prisma/client": ">=2.26.0 || >=3 || >=4 || >=5"
   checksum: 10c0/d6b922886f76be95aaed09b83d8f1024bb8d974142cb2d741d30d0a2b51413ef5f9c0d5f73fa30ee0435405a1166d18085ca959c4170043cfe375f95d1637b57
+  languageName: node
+  linkType: hard
+
+"@auth/prisma-adapter@npm:^2.4.2":
+  version: 2.4.2
+  resolution: "@auth/prisma-adapter@npm:2.4.2"
+  dependencies:
+    "@auth/core": "npm:0.34.2"
+  peerDependencies:
+    "@prisma/client": ">=2.26.0 || >=3 || >=4 || >=5"
+  checksum: 10c0/c291f4e0cb7e07a36146d0c4d39d2fc95d77c2b414c562c8b552dfddd8cb86da24b76deec3eaf31af89a3a4e06f3337c2f476f866b56522345b2a999357900c7
   languageName: node
   linkType: hard
 
@@ -2951,6 +2988,7 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "@cs-magic/react@workspace:packages_frontend/react"
   dependencies:
+    "@auth/prisma-adapter": "npm:^2.4.2"
     "@cs-magic/common": "workspace:^"
     "@cs-magic/shadcn": "workspace:^"
     "@hookform/resolvers": "npm:*"
@@ -28955,7 +28993,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"oauth4webapi@npm:^2.4.0":
+"oauth4webapi@npm:^2.10.4, oauth4webapi@npm:^2.4.0":
   version: 2.12.0
   resolution: "oauth4webapi@npm:2.12.0"
   checksum: 10c0/21903b050f928368000705c7dd49ec10c924961ee09acabbcf621d939051acc0856d407533f8122e0c27325951b81bbba95a91c45a35e50224dfec1fc5360d9e

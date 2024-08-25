@@ -16175,6 +16175,8 @@ __metadata:
     ttypescript: "npm:^1.5.15"
     typescript-transform-paths: "npm:^3.5.0"
     webpack: "npm:^5.94.0"
+  bin:
+    gg: __scripts__/gg.sh
   languageName: unknown
   linkType: soft
 

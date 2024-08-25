@@ -2578,8 +2578,7 @@ __metadata:
     next-auth: "npm:^4.22.1"
     next-themes: "npm:^0.2.1"
     postcss: "npm:^8.4.34"
-    prettier: "npm:^3.2.5"
-    prettier-plugin-tailwindcss: "npm:^0.5.11"
+    prettier: "npm:*"
     prisma: "npm:*"
     prisma-json-types-generator: "npm:^3.0.4"
     pusher: "npm:^5.2.0"
@@ -2774,8 +2773,7 @@ __metadata:
     next-themes: "npm:^0.2.1"
     openai: "npm:4.12.1"
     postcss: "npm:^8.4.27"
-    prettier: "npm:^3.0.0"
-    prettier-plugin-tailwindcss: "npm:^0.5.1"
+    prettier: "npm:*"
     prisma: "npm:*"
     prisma-json-types-generator: "npm:^3.0.3"
     react: "npm:*"
@@ -2836,8 +2834,7 @@ __metadata:
     next: "npm:*"
     next-auth: "npm:^4.24.5"
     postcss: "npm:^8.4.31"
-    prettier: "npm:^3.1.0"
-    prettier-plugin-tailwindcss: "npm:^0.5.7"
+    prettier: "npm:*"
     prisma: "npm:*"
     react: "npm:*"
     react-dom: "npm:*"
@@ -2948,7 +2945,6 @@ __metadata:
     postcss: "npm:^8.4.21"
     postmark: "npm:^3.0.19"
     prettier: "npm:*"
-    prettier-plugin-tailwindcss: "npm:*"
     prisma: "npm:5"
     prisma-json-types-generator: "npm:^3.0.0-beta.4"
     raw-body: "npm:^2.5.2"
@@ -3110,10 +3106,13 @@ __metadata:
     "@cs-magic/llm": "workspace:^"
     "@fastify/websocket": "npm:^10.0.1"
     "@types/node-schedule": "npm:^2.1.7"
+    bufferutil: "npm:^4.0.8"
     fastify: "npm:^4.28.1"
     node-schedule: "npm:^2.1.1"
     prisma: "npm:*"
     qrcode-terminal: "npm:^0.12.0"
+    utf-8-validate: "npm:^6.0.4"
+    wechat4u: "workspace:^"
     wechaty: "workspace:^"
     wechaty-puppet: "workspace:^"
     wechaty-puppet-service: "npm:1.18.2"
@@ -3150,6 +3149,50 @@ __metadata:
     sonner: "npm:^1.5.0"
     ts-patch: "npm:*"
     wechaty-puppet: "workspace:^"
+  languageName: unknown
+  linkType: soft
+
+"@cs-magic/swot-pc@workspace:app_swot/frontend-pc":
+  version: 0.0.0-use.local
+  resolution: "@cs-magic/swot-pc@workspace:app_swot/frontend-pc"
+  dependencies:
+    "@babel/core": "npm:^7.24.8"
+    "@babel/preset-env": "npm:^7.24.8"
+    "@babel/register": "npm:^7.24.6"
+    "@cs-magic/swot-backend": "workspace:^"
+    "@cs-magic/swot-frontend-common": "workspace:^"
+    "@electron-toolkit/eslint-config-prettier": "npm:^2.0.0"
+    "@electron-toolkit/eslint-config-ts": "npm:^2.0.0"
+    "@electron-toolkit/preload": "npm:^3.0.1"
+    "@electron-toolkit/tsconfig": "npm:^1.0.1"
+    "@electron-toolkit/utils": "npm:^3.0.0"
+    "@types/babel__core": "npm:^7"
+    "@types/babel__preset-env": "npm:^7"
+    "@types/babel__register": "npm:^7"
+    "@types/node": "npm:*"
+    "@types/path-browserify": "npm:^1"
+    "@types/react": "npm:*"
+    "@types/react-dom": "npm:*"
+    "@types/yargs-parser": "npm:^21"
+    "@vitejs/plugin-react": "npm:^4.3.1"
+    electron: "npm:31.2.0"
+    electron-builder: "npm:^24.13.3"
+    electron-notarize: "npm:^1.2.2"
+    electron-updater: "npm:^6.1.7"
+    electron-vite: "npm:^2.3.0"
+    eslint: "npm:^8"
+    eslint-plugin-react: "npm:^7.34.3"
+    jotai: "npm:*"
+    node-stdlib-browser: "npm:^1.2.0"
+    path-browserify: "npm:^1.0.1"
+    prettier: "npm:*"
+    react: "npm:*"
+    react-dom: "npm:*"
+    typescript: "npm:*"
+    vite: "npm:^5.3.1"
+    vite-plugin-commonjs: "npm:^0.10.1"
+    vite-plugin-node-polyfills: "npm:^0.22.0"
+    vite-plugin-wasm: "npm:^3.3.0"
   languageName: unknown
   linkType: soft
 
@@ -3268,8 +3311,7 @@ __metadata:
     playwright: "npm:^1.42.1"
     postcss: "npm:^8.4.34"
     postinstall-postinstall: "npm:^2.1.0"
-    prettier: "npm:^3.2.5"
-    prettier-plugin-tailwindcss: "npm:^0.5.11"
+    prettier: "npm:*"
     pusher: "npm:^5.2.0"
     pusher-js: "npm:^8.4.0-rc2"
     qrcode-terminal: "npm:^0.12.0"
@@ -11964,6 +12006,17 @@ __metadata:
   languageName: node
   linkType: hard
 
+"ajv-keywords@npm:^5.1.0":
+  version: 5.1.0
+  resolution: "ajv-keywords@npm:5.1.0"
+  dependencies:
+    fast-deep-equal: "npm:^3.1.3"
+  peerDependencies:
+    ajv: ^8.8.2
+  checksum: 10c0/18bec51f0171b83123ba1d8883c126e60c6f420cef885250898bf77a8d3e65e3bfb9e8564f497e30bdbe762a83e0d144a36931328616a973ee669dc74d4a9590
+  languageName: node
+  linkType: hard
+
 "ajv@npm:^6.10.0, ajv@npm:^6.12.0, ajv@npm:^6.12.3, ajv@npm:^6.12.4, ajv@npm:^6.12.5":
   version: 6.12.6
   resolution: "ajv@npm:6.12.6"
@@ -11976,7 +12029,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"ajv@npm:^8.0.0, ajv@npm:^8.10.0, ajv@npm:^8.11.0":
+"ajv@npm:^8.0.0, ajv@npm:^8.10.0, ajv@npm:^8.11.0, ajv@npm:^8.9.0":
   version: 8.17.1
   resolution: "ajv@npm:8.17.1"
   dependencies:
@@ -13074,6 +13127,19 @@ __metadata:
   peerDependencies:
     "@babel/core": ^7.8.0
   checksum: 10c0/2eda9c1391e51936ca573dd1aedfee07b14c59b33dbe16ef347873ddd777bcf6e2fc739681e9e9661ab54ef84a3109a03725be2ac32cd2124c07ea4401cbe8c1
+  languageName: node
+  linkType: hard
+
+"babel-loader@npm:^9.1.3":
+  version: 9.1.3
+  resolution: "babel-loader@npm:9.1.3"
+  dependencies:
+    find-cache-dir: "npm:^4.0.0"
+    schema-utils: "npm:^4.0.0"
+  peerDependencies:
+    "@babel/core": ^7.12.0
+    webpack: ">=5"
+  checksum: 10c0/e3fc3c9e02bd908b37e8e8cd4f3d7280cf6ac45e33fc203aedbb615135a0fecc33bf92573b71a166a827af029d302c0b060354985cd91d510320bd70a2f949eb
   languageName: node
   linkType: hard
 
@@ -14323,6 +14389,16 @@ __metadata:
   languageName: node
   linkType: hard
 
+"bufferutil@npm:^4.0.8":
+  version: 4.0.8
+  resolution: "bufferutil@npm:4.0.8"
+  dependencies:
+    node-gyp: "npm:latest"
+    node-gyp-build: "npm:^4.3.0"
+  checksum: 10c0/36cdc5b53a38d9f61f89fdbe62029a2ebcd020599862253fefebe31566155726df9ff961f41b8c97b02b4c12b391ef97faf94e2383392654cf8f0ed68f76e47c
+  languageName: node
+  linkType: hard
+
 "builder-util-runtime@npm:9.2.4":
   version: 9.2.4
   resolution: "builder-util-runtime@npm:9.2.4"
@@ -15550,6 +15626,13 @@ __metadata:
   languageName: node
   linkType: hard
 
+"common-path-prefix@npm:^3.0.0":
+  version: 3.0.0
+  resolution: "common-path-prefix@npm:3.0.0"
+  checksum: 10c0/c4a74294e1b1570f4a8ab435285d185a03976c323caa16359053e749db4fde44e3e6586c29cd051100335e11895767cbbd27ea389108e327d62f38daf4548fdb
+  languageName: node
+  linkType: hard
+
 "common-sequence@npm:^2.0.2":
   version: 2.0.2
   resolution: "common-sequence@npm:2.0.2"
@@ -16074,10 +16157,13 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "cs-magic@workspace:."
   dependencies:
+    "@trivago/prettier-plugin-sort-imports": "npm:^4.3.0"
     "@types/jest": "npm:^29.5.12"
+    babel-loader: "npm:^9.1.3"
     copyfiles: "npm:^2.4.1"
     cross-env: "npm:^7.0.3"
     dotenv-cli: "npm:^7.4.2"
+    file-loader: "npm:^6.2.0"
     jest: "npm:^29.7.0"
     patch-package: "npm:^8.0.0"
     pino-pretty: "npm:^11.2.1"
@@ -16088,6 +16174,7 @@ __metadata:
     ts-patch: "npm:^3.2.1"
     ttypescript: "npm:^1.5.15"
     typescript-transform-paths: "npm:^3.5.0"
+    webpack: "npm:^5.94.0"
   languageName: unknown
   linkType: soft
 
@@ -19993,6 +20080,16 @@ __metadata:
   languageName: node
   linkType: hard
 
+"find-cache-dir@npm:^4.0.0":
+  version: 4.0.0
+  resolution: "find-cache-dir@npm:4.0.0"
+  dependencies:
+    common-path-prefix: "npm:^3.0.0"
+    pkg-dir: "npm:^7.0.0"
+  checksum: 10c0/0faa7956974726c8769671de696d24c643ca1e5b8f7a2401283caa9e07a5da093293e0a0f4bd18c920ec981d2ef945c7f5b946cde268dfc9077d833ad0293cff
+  languageName: node
+  linkType: hard
+
 "find-my-way@npm:^8.0.0":
   version: 8.2.0
   resolution: "find-my-way@npm:8.2.0"
@@ -20046,6 +20143,16 @@ __metadata:
     locate-path: "npm:^6.0.0"
     path-exists: "npm:^4.0.0"
   checksum: 10c0/062c5a83a9c02f53cdd6d175a37ecf8f87ea5bbff1fdfb828f04bfa021441bc7583e8ebc0872a4c1baab96221fb8a8a275a19809fb93fbc40bd69ec35634069a
+  languageName: node
+  linkType: hard
+
+"find-up@npm:^6.3.0":
+  version: 6.3.0
+  resolution: "find-up@npm:6.3.0"
+  dependencies:
+    locate-path: "npm:^7.1.0"
+    path-exists: "npm:^5.0.0"
+  checksum: 10c0/07e0314362d316b2b13f7f11ea4692d5191e718ca3f7264110127520f3347996349bf9e16805abae3e196805814bc66ef4bff2b8904dc4a6476085fc9b0eba07
   languageName: node
   linkType: hard
 
@@ -25541,6 +25648,15 @@ __metadata:
   languageName: node
   linkType: hard
 
+"locate-path@npm:^7.1.0":
+  version: 7.2.0
+  resolution: "locate-path@npm:7.2.0"
+  dependencies:
+    p-locate: "npm:^6.0.0"
+  checksum: 10c0/139e8a7fe11cfbd7f20db03923cacfa5db9e14fa14887ea121345597472b4a63c1a42a8a5187defeeff6acf98fd568da7382aa39682d38f0af27433953a97751
+  languageName: node
+  linkType: hard
+
 "lodash-es@npm:^4.17.21":
   version: 4.17.21
   resolution: "lodash-es@npm:4.17.21"
@@ -29520,6 +29636,15 @@ __metadata:
   languageName: node
   linkType: hard
 
+"p-limit@npm:^4.0.0":
+  version: 4.0.0
+  resolution: "p-limit@npm:4.0.0"
+  dependencies:
+    yocto-queue: "npm:^1.0.0"
+  checksum: 10c0/a56af34a77f8df2ff61ddfb29431044557fcbcb7642d5a3233143ebba805fc7306ac1d448de724352861cb99de934bc9ab74f0d16fe6a5460bdbdf938de875ad
+  languageName: node
+  linkType: hard
+
 "p-locate@npm:^3.0.0":
   version: 3.0.0
   resolution: "p-locate@npm:3.0.0"
@@ -29544,6 +29669,15 @@ __metadata:
   dependencies:
     p-limit: "npm:^3.0.2"
   checksum: 10c0/2290d627ab7903b8b70d11d384fee714b797f6040d9278932754a6860845c4d3190603a0772a663c8cb5a7b21d1b16acb3a6487ebcafa9773094edc3dfe6009a
+  languageName: node
+  linkType: hard
+
+"p-locate@npm:^6.0.0":
+  version: 6.0.0
+  resolution: "p-locate@npm:6.0.0"
+  dependencies:
+    p-limit: "npm:^4.0.0"
+  checksum: 10c0/d72fa2f41adce59c198270aa4d3c832536c87a1806e0f69dffb7c1a7ca998fb053915ca833d90f166a8c082d3859eabfed95f01698a3214c20df6bb8de046312
   languageName: node
   linkType: hard
 
@@ -29907,6 +30041,13 @@ __metadata:
   version: 4.0.0
   resolution: "path-exists@npm:4.0.0"
   checksum: 10c0/8c0bd3f5238188197dc78dced15207a4716c51cc4e3624c44fc97acf69558f5ebb9a2afff486fe1b4ee148e0c133e96c5e11a9aa5c48a3006e3467da070e5e1b
+  languageName: node
+  linkType: hard
+
+"path-exists@npm:^5.0.0":
+  version: 5.0.0
+  resolution: "path-exists@npm:5.0.0"
+  checksum: 10c0/b170f3060b31604cde93eefdb7392b89d832dfbc1bed717c9718cbe0f230c1669b7e75f87e19901da2250b84d092989a0f9e44d2ef41deb09aa3ad28e691a40a
   languageName: node
   linkType: hard
 
@@ -30312,6 +30453,15 @@ __metadata:
   languageName: node
   linkType: hard
 
+"pkg-dir@npm:^7.0.0":
+  version: 7.0.0
+  resolution: "pkg-dir@npm:7.0.0"
+  dependencies:
+    find-up: "npm:^6.3.0"
+  checksum: 10c0/1afb23d2efb1ec9d8b2c4a0c37bf146822ad2774f074cb05b853be5dca1b40815c5960dd126df30ab8908349262a266f31b771e877235870a3b8fd313beebec5
+  languageName: node
+  linkType: hard
+
 "pkg-jq@npm:^0.2.11":
   version: 0.2.11
   resolution: "pkg-jq@npm:0.2.11"
@@ -30640,64 +30790,6 @@ __metadata:
   dependencies:
     fast-diff: "npm:^1.1.2"
   checksum: 10c0/81e0027d731b7b3697ccd2129470ed9913ecb111e4ec175a12f0fcfab0096516373bf0af2fef132af50cafb0a905b74ff57996d615f59512bb9ac7378fcc64ab
-  languageName: node
-  linkType: hard
-
-"prettier-plugin-tailwindcss@npm:^0.6.6":
-  version: 0.6.6
-  resolution: "prettier-plugin-tailwindcss@npm:0.6.6"
-  peerDependencies:
-    "@ianvs/prettier-plugin-sort-imports": "*"
-    "@prettier/plugin-pug": "*"
-    "@shopify/prettier-plugin-liquid": "*"
-    "@trivago/prettier-plugin-sort-imports": "*"
-    "@zackad/prettier-plugin-twig-melody": "*"
-    prettier: ^3.0
-    prettier-plugin-astro: "*"
-    prettier-plugin-css-order: "*"
-    prettier-plugin-import-sort: "*"
-    prettier-plugin-jsdoc: "*"
-    prettier-plugin-marko: "*"
-    prettier-plugin-multiline-arrays: "*"
-    prettier-plugin-organize-attributes: "*"
-    prettier-plugin-organize-imports: "*"
-    prettier-plugin-sort-imports: "*"
-    prettier-plugin-style-order: "*"
-    prettier-plugin-svelte: "*"
-  peerDependenciesMeta:
-    "@ianvs/prettier-plugin-sort-imports":
-      optional: true
-    "@prettier/plugin-pug":
-      optional: true
-    "@shopify/prettier-plugin-liquid":
-      optional: true
-    "@trivago/prettier-plugin-sort-imports":
-      optional: true
-    "@zackad/prettier-plugin-twig-melody":
-      optional: true
-    prettier-plugin-astro:
-      optional: true
-    prettier-plugin-css-order:
-      optional: true
-    prettier-plugin-import-sort:
-      optional: true
-    prettier-plugin-jsdoc:
-      optional: true
-    prettier-plugin-marko:
-      optional: true
-    prettier-plugin-multiline-arrays:
-      optional: true
-    prettier-plugin-organize-attributes:
-      optional: true
-    prettier-plugin-organize-imports:
-      optional: true
-    prettier-plugin-sort-imports:
-      optional: true
-    prettier-plugin-style-order:
-      optional: true
-    prettier-plugin-svelte:
-      optional: true
-  checksum: 10c0/e34743a768631ebc69690b97d7018500f497815bbdc59c95604d09c65ffc25823ffb181e62a457f4d77594bf4ee2de50bab579e68b55440e3fcfa91713b7d7e6
   languageName: node
   linkType: hard
 
@@ -33559,6 +33651,18 @@ __metadata:
   languageName: node
   linkType: hard
 
+"schema-utils@npm:^4.0.0":
+  version: 4.2.0
+  resolution: "schema-utils@npm:4.2.0"
+  dependencies:
+    "@types/json-schema": "npm:^7.0.9"
+    ajv: "npm:^8.9.0"
+    ajv-formats: "npm:^2.1.1"
+    ajv-keywords: "npm:^5.1.0"
+  checksum: 10c0/8dab7e7800316387fd8569870b4b668cfcecf95ac551e369ea799bbcbfb63fb0365366d4b59f64822c9f7904d8c5afcfaf5a6124a4b08783e558cd25f299a6b4
+  languageName: node
+  linkType: hard
+
 "screenfull@npm:^5.1.0":
   version: 5.2.0
   resolution: "screenfull@npm:5.2.0"
@@ -35231,50 +35335,6 @@ __metadata:
   checksum: 10c0/a6badbd3d1d6dbb177f872787699ab34320b990d12e20798ecae915f0008796a0f3c69164f1485c9def399e0ce0a5683eb4a8045e51a5e1c364bb13a0d9f79e1
   languageName: node
   linkType: hard
-
-"swot-pc@workspace:app_swot/frontend-pc":
-  version: 0.0.0-use.local
-  resolution: "swot-pc@workspace:app_swot/frontend-pc"
-  dependencies:
-    "@babel/core": "npm:^7.24.8"
-    "@babel/preset-env": "npm:^7.24.8"
-    "@babel/register": "npm:^7.24.6"
-    "@cs-magic/swot-backend": "workspace:^"
-    "@cs-magic/swot-frontend-common": "workspace:^"
-    "@electron-toolkit/eslint-config-prettier": "npm:^2.0.0"
-    "@electron-toolkit/eslint-config-ts": "npm:^2.0.0"
-    "@electron-toolkit/preload": "npm:^3.0.1"
-    "@electron-toolkit/tsconfig": "npm:^1.0.1"
-    "@electron-toolkit/utils": "npm:^3.0.0"
-    "@types/babel__core": "npm:^7"
-    "@types/babel__preset-env": "npm:^7"
-    "@types/babel__register": "npm:^7"
-    "@types/node": "npm:*"
-    "@types/path-browserify": "npm:^1"
-    "@types/react": "npm:*"
-    "@types/react-dom": "npm:*"
-    "@types/yargs-parser": "npm:^21"
-    "@vitejs/plugin-react": "npm:^4.3.1"
-    electron: "npm:31.2.0"
-    electron-builder: "npm:^24.13.3"
-    electron-notarize: "npm:^1.2.2"
-    electron-updater: "npm:^6.1.7"
-    electron-vite: "npm:^2.3.0"
-    eslint: "npm:^8"
-    eslint-plugin-react: "npm:^7.34.3"
-    jotai: "npm:*"
-    node-stdlib-browser: "npm:^1.2.0"
-    path-browserify: "npm:^1.0.1"
-    prettier: "npm:*"
-    react: "npm:*"
-    react-dom: "npm:*"
-    typescript: "npm:*"
-    vite: "npm:^5.3.1"
-    vite-plugin-commonjs: "npm:^0.10.1"
-    vite-plugin-node-polyfills: "npm:^0.22.0"
-    vite-plugin-wasm: "npm:^3.3.0"
-  languageName: unknown
-  linkType: soft
 
 "swr-store@npm:0.10.6":
   version: 0.10.6
@@ -37503,6 +37563,16 @@ __metadata:
   bin:
     user-home: cli.js
   checksum: 10c0/9d80a5df3bfea008e4d17b1465e8eb4ac7472ba02766feb242e84349b877f74e302838c85a622d4ba78665c2378b654fe1b0d27cf912c917b5536eb4778f8804
+  languageName: node
+  linkType: hard
+
+"utf-8-validate@npm:^6.0.4":
+  version: 6.0.4
+  resolution: "utf-8-validate@npm:6.0.4"
+  dependencies:
+    node-gyp: "npm:latest"
+    node-gyp-build: "npm:^4.3.0"
+  checksum: 10c0/f7042d94aec6ca02461b64e725bdc7262266610dbb787331e5bbd49374ef6f75fe9900600df3fc63d97906c23614a965c8989b4bf95d70bf35dc617da99215e7
   languageName: node
   linkType: hard
 

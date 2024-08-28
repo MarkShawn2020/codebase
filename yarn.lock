@@ -15977,6 +15977,8 @@ __metadata:
     typescript-transform-paths: "npm:^3.5.0"
     webpack: "npm:^5.94.0"
     wechaty-grpc: "patch:wechaty-grpc@npm%3A1.5.2#~/.yarn/patches/wechaty-grpc-npm-1.5.2-27f8d62b49.patch"
+  bin:
+    ggg: ./__scripts__/ggg.sh
   languageName: unknown
   linkType: soft
 

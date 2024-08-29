@@ -2657,7 +2657,7 @@ __metadata:
     framer-motion: "npm:^10.15.0"
     i18next: "npm:*"
     lodash: "npm:^4.17.21"
-    lucide-react: "npm:^0.262.0"
+    lucide-react: "npm:*"
     next: "npm:*"
     next-fonts: "npm:^1.5.1"
     next-i18next: "npm:*"
@@ -2762,7 +2762,7 @@ __metadata:
     gojs-react: "npm:^1.1.2"
     immer: "npm:^10.0.3"
     lodash: "npm:^4.17.21"
-    lucide-react: "npm:^0.292.0"
+    lucide-react: "npm:*"
     next: "npm:*"
     next-auth: "npm:^4.23.0"
     next-themes: "npm:^0.2.1"
@@ -2821,7 +2821,7 @@ __metadata:
     clsx: "npm:^2.0.0"
     eslint: "npm:^8.54.0"
     lodash: "npm:^4.17.21"
-    lucide-react: "npm:^0.294.0"
+    lucide-react: "npm:*"
     nanoid: "npm:^5.0.4"
     next: "npm:*"
     next-auth: "npm:^4.24.5"
@@ -2916,7 +2916,7 @@ __metadata:
     js-sha1: "npm:^0.6.0"
     langchain: "npm:^0.0.140"
     lodash: "npm:^4.17.21"
-    lucide-react: "npm:0.263.1"
+    lucide-react: "npm:*"
     micro: "npm:^10.0.1"
     mustache: "npm:^4.2.0"
     nano-id: "npm:^1.1.0"
@@ -3019,7 +3019,7 @@ __metadata:
     eslint-config-next: "npm:*"
     i18next: "npm:*"
     jotai: "npm:*"
-    lucide-react: "npm:^0.417.0"
+    lucide-react: "npm:*"
     next: "npm:*"
     next-auth: "npm:*"
     next-i18next: "npm:*"
@@ -3083,7 +3083,7 @@ __metadata:
     date-fns: "npm:^3.6.0"
     embla-carousel-react: "npm:^8.2.0"
     input-otp: "npm:^1.2.4"
-    lucide-react: "npm:^0.435.0"
+    lucide-react: "npm:*"
     next-themes: "npm:*"
     react: "npm:*"
     react-day-picker: "npm:8.10.1"
@@ -3141,7 +3141,7 @@ __metadata:
     copyfiles: "npm:*"
     jotai: "npm:*"
     lodash-es: "npm:^4.17.21"
-    lucide-react: "npm:^0.424.0"
+    lucide-react: "npm:*"
     next: "npm:*"
     next-auth: "npm:^4.24.7"
     pusher-js: "npm:^8.4.0-rc2"
@@ -3281,7 +3281,7 @@ __metadata:
     js-yaml: "npm:^4.1.0"
     langchain: "npm:^0.1.21"
     lodash: "npm:^4.17.21"
-    lucide-react: "npm:^0.399.0"
+    lucide-react: "npm:*"
     markmap-common: "npm:^0.16.0"
     markmap-lib: "npm:^0.16.1"
     markmap-view: "npm:*"
@@ -25518,84 +25518,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"lucide-react@npm:0.263.1":
-  version: 0.263.1
-  resolution: "lucide-react@npm:0.263.1"
-  peerDependencies:
-    react: ^16.5.1 || ^17.0.0 || ^18.0.0
-  checksum: 10c0/ce4b0cb79cb689d0bf6293dba132d83850407a42de49bc589e65eeb99d8ec773946fe96b23bdd6f8941b2dfa0540050b8b73226d80589704745e7e55cc0706e1
-  languageName: node
-  linkType: hard
-
-"lucide-react@npm:^0.262.0":
-  version: 0.262.0
-  resolution: "lucide-react@npm:0.262.0"
-  peerDependencies:
-    react: ^16.5.1 || ^17.0.0 || ^18.0.0
-  checksum: 10c0/2acecb53173a9f9e1c28a62c8f7886beac176a650060267489aa28ee4a66e9f0a5bcffca677e28f80d8af17bba963758e575d63a4968d4bb8203e3e960a150f9
-  languageName: node
-  linkType: hard
-
-"lucide-react@npm:^0.292.0":
-  version: 0.292.0
-  resolution: "lucide-react@npm:0.292.0"
-  peerDependencies:
-    react: ^16.5.1 || ^17.0.0 || ^18.0.0
-  checksum: 10c0/6a29a213d6ef27fc23aef54838255f73d64b0f542da0f61cd21d3150a74aee3c366805c9ebdfefe0dfaa8b35bf8af27789d6d43109588c3f322b978cedd81926
-  languageName: node
-  linkType: hard
-
-"lucide-react@npm:^0.294.0":
-  version: 0.294.0
-  resolution: "lucide-react@npm:0.294.0"
-  peerDependencies:
-    react: ^16.5.1 || ^17.0.0 || ^18.0.0
-  checksum: 10c0/3c8d05743c5bac0299ac23ebcb78b6c0ae03182878cd80f4a51ccb89507ea564145cc8bc77757874066044e7a96af14a2a986cd759ae2b971dcab953c6b0c566
-  languageName: node
-  linkType: hard
-
-"lucide-react@npm:^0.336.0":
-  version: 0.336.0
-  resolution: "lucide-react@npm:0.336.0"
-  peerDependencies:
-    react: ^16.5.1 || ^17.0.0 || ^18.0.0
-  checksum: 10c0/d0416a9fe1d90461d9797b2aadb34d4dcdd26ec708e685e2500d0cff868de3acfe067bb595ac964aa40b1fc422746f2dc51d4cd5c0ceaa601ccfd4df9a5d5e1e
-  languageName: node
-  linkType: hard
-
-"lucide-react@npm:^0.399.0":
-  version: 0.399.0
-  resolution: "lucide-react@npm:0.399.0"
-  peerDependencies:
-    react: ^16.5.1 || ^17.0.0 || ^18.0.0 || ^19.0.0
-  checksum: 10c0/49b97b65b8f225d4e93b18e66e5b2c8ce67a6cd7a90c589c6492b26063cec565a3d8b18b934fb35de01d9a15e1f52b2f8767b306b0a580d75a3c18d306e362be
-  languageName: node
-  linkType: hard
-
-"lucide-react@npm:^0.417.0":
-  version: 0.417.0
-  resolution: "lucide-react@npm:0.417.0"
-  peerDependencies:
-    react: ^16.5.1 || ^17.0.0 || ^18.0.0 || ^19.0.0
-  checksum: 10c0/97940d6beffa80fb869d979e55dd7c2203d0bc76128cd676cd1bda06d63ad99219d0fda1d639fbca801ea27c628c786f2926511b1527a4fb9f984c4208977146
-  languageName: node
-  linkType: hard
-
 "lucide-react@npm:^0.424.0":
   version: 0.424.0
   resolution: "lucide-react@npm:0.424.0"
   peerDependencies:
     react: ^16.5.1 || ^17.0.0 || ^18.0.0 || ^19.0.0-rc
   checksum: 10c0/b38683c149a6af50ee3dfe1d2203fd1349704ccec221dc835816d4de9bfb08ee7734b074db68aae2fbc400aded8435bab98a8ba5b616a0f512e11f9353d3ca9a
-  languageName: node
-  linkType: hard
-
-"lucide-react@npm:^0.435.0":
-  version: 0.435.0
-  resolution: "lucide-react@npm:0.435.0"
-  peerDependencies:
-    react: ^16.5.1 || ^17.0.0 || ^18.0.0 || ^19.0.0-rc
-  checksum: 10c0/8a1653901a362d83696b555ff2cc1f06126008c8a09b1b8a0db8484b98c9de5c44589d00296d1f419ebb4e65524fcc4eb1fe39f1721dd22242dc34788f8936f5
   languageName: node
   linkType: hard
 

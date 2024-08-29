@@ -2527,9 +2527,9 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"@cs-magic/eslint@workspace:^, @cs-magic/eslint@workspace:packages_tools/eslint":
+"@cs-magic/eslint-config@workspace:^, @cs-magic/eslint-config@workspace:packages_tools/eslint":
   version: 0.0.0-use.local
-  resolution: "@cs-magic/eslint@workspace:packages_tools/eslint"
+  resolution: "@cs-magic/eslint-config@workspace:packages_tools/eslint"
   dependencies:
     "@types/eslint": "npm:^8.56.0"
     "@typescript-eslint/eslint-plugin": "npm:^7.17.0"
@@ -2543,6 +2543,7 @@ __metadata:
     eslint-plugin-import: "npm:^2.28.1"
     eslint-plugin-jest: "npm:^27.2.3"
     eslint-plugin-jsx-a11y: "npm:^6.7.1"
+    eslint-plugin-n: "npm:^17.10.2"
     eslint-plugin-promise: "npm:^7.1.0"
     eslint-plugin-react: "npm:^7.33.2"
     eslint-plugin-react-hooks: "npm:^4.6.0"
@@ -2890,7 +2891,7 @@ __metadata:
   dependencies:
     "@alicloud/dysmsapi20170525": "npm:^2.0.24"
     "@aws-sdk/client-ses": "npm:^3.395.0"
-    "@cs-magic/eslint": "workspace:^"
+    "@cs-magic/eslint-config": "workspace:^"
     "@cs-magic/react": "workspace:^"
     "@cs-magic/shadcn": "workspace:^"
     "@cs-magic/webpack": "workspace:^"
@@ -3197,7 +3198,7 @@ __metadata:
     "@babel/core": "npm:^7.24.8"
     "@babel/preset-env": "npm:^7.24.8"
     "@babel/register": "npm:^7.24.6"
-    "@cs-magic/eslint": "workspace:^"
+    "@cs-magic/eslint-config": "workspace:^"
     "@cs-magic/swot-backend": "workspace:^"
     "@cs-magic/swot-frontend-common": "workspace:^"
     "@electron-toolkit/eslint-config-prettier": "npm:^2.0.0"
@@ -3221,7 +3222,6 @@ __metadata:
     electron-updater: "npm:^6.1.7"
     electron-vite: "npm:^2.3.0"
     eslint: "npm:^8"
-    eslint-plugin-react: "npm:^7.34.3"
     jotai: "npm:*"
     prettier: "npm:*"
     prisma: "npm:^5.18.0"
@@ -3386,7 +3386,7 @@ __metadata:
   resolution: "@cs-magic/tools@workspace:packages_tools/tools"
   dependencies:
     "@cs-magic/commands": "workspace:^"
-    "@cs-magic/eslint": "workspace:^"
+    "@cs-magic/eslint-config": "workspace:^"
     "@cs-magic/jest": "workspace:^"
     "@cs-magic/prettier": "workspace:^"
     "@cs-magic/tspc": "workspace:^"
@@ -4169,7 +4169,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@eslint-community/eslint-utils@npm:^4.2.0, @eslint-community/eslint-utils@npm:^4.4.0":
+"@eslint-community/eslint-utils@npm:^4.1.2, @eslint-community/eslint-utils@npm:^4.2.0, @eslint-community/eslint-utils@npm:^4.4.0":
   version: 4.4.0
   resolution: "@eslint-community/eslint-utils@npm:4.4.0"
   dependencies:
@@ -4180,7 +4180,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@eslint-community/regexpp@npm:^4.10.0, @eslint-community/regexpp@npm:^4.4.0, @eslint-community/regexpp@npm:^4.5.0, @eslint-community/regexpp@npm:^4.6.1":
+"@eslint-community/regexpp@npm:^4.10.0, @eslint-community/regexpp@npm:^4.11.0, @eslint-community/regexpp@npm:^4.4.0, @eslint-community/regexpp@npm:^4.5.0, @eslint-community/regexpp@npm:^4.6.1":
   version: 4.11.0
   resolution: "@eslint-community/regexpp@npm:4.11.0"
   checksum: 10c0/0f6328869b2741e2794da4ad80beac55cba7de2d3b44f796a60955b0586212ec75e6b0253291fd4aad2100ad471d1480d8895f2b54f1605439ba4c875e05e523
@@ -18220,7 +18220,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"enhanced-resolve@npm:^5.0.0, enhanced-resolve@npm:^5.15.0, enhanced-resolve@npm:^5.17.1":
+"enhanced-resolve@npm:^5.0.0, enhanced-resolve@npm:^5.15.0, enhanced-resolve@npm:^5.17.0, enhanced-resolve@npm:^5.17.1":
   version: 5.17.1
   resolution: "enhanced-resolve@npm:5.17.1"
   dependencies:
@@ -18707,6 +18707,17 @@ __metadata:
   languageName: node
   linkType: hard
 
+"eslint-compat-utils@npm:^0.5.1":
+  version: 0.5.1
+  resolution: "eslint-compat-utils@npm:0.5.1"
+  dependencies:
+    semver: "npm:^7.5.4"
+  peerDependencies:
+    eslint: ">=6.0.0"
+  checksum: 10c0/325e815205fab70ebcd379f6d4b5d44c7d791bb8dfe0c9888233f30ebabd9418422595b53a781b946c768d9244d858540e5e6129a6b3dd6d606f467d599edc6c
+  languageName: node
+  linkType: hard
+
 "eslint-config-airbnb-base@npm:^15.0.0":
   version: 15.0.0
   resolution: "eslint-config-airbnb-base@npm:15.0.0"
@@ -18853,6 +18864,19 @@ __metadata:
   languageName: node
   linkType: hard
 
+"eslint-plugin-es-x@npm:^7.5.0":
+  version: 7.8.0
+  resolution: "eslint-plugin-es-x@npm:7.8.0"
+  dependencies:
+    "@eslint-community/eslint-utils": "npm:^4.1.2"
+    "@eslint-community/regexpp": "npm:^4.11.0"
+    eslint-compat-utils: "npm:^0.5.1"
+  peerDependencies:
+    eslint: ">=8"
+  checksum: 10c0/002fda8c029bc5da41e24e7ac11654062831d675fc4f5f20d0de460e24bf1e05cd559000678ef3e46c48641190f4fc07ae3d57aa5e8b085ef5f67e5f63742614
+  languageName: node
+  linkType: hard
+
 "eslint-plugin-es@npm:^3.0.0":
   version: 3.0.1
   resolution: "eslint-plugin-es@npm:3.0.1"
@@ -18957,6 +18981,24 @@ __metadata:
   languageName: node
   linkType: hard
 
+"eslint-plugin-n@npm:^17.10.2":
+  version: 17.10.2
+  resolution: "eslint-plugin-n@npm:17.10.2"
+  dependencies:
+    "@eslint-community/eslint-utils": "npm:^4.4.0"
+    enhanced-resolve: "npm:^5.17.0"
+    eslint-plugin-es-x: "npm:^7.5.0"
+    get-tsconfig: "npm:^4.7.0"
+    globals: "npm:^15.8.0"
+    ignore: "npm:^5.2.4"
+    minimatch: "npm:^9.0.5"
+    semver: "npm:^7.5.3"
+  peerDependencies:
+    eslint: ">=8.23.0"
+  checksum: 10c0/cd1e089a5243e923a0f79f688b69d27c8a6513deb7c4b2e687e8c476893e512f6a97ecf5ed595e489b583675002126065e3864c0102a606b857ec93c69f6da6a
+  languageName: node
+  linkType: hard
+
 "eslint-plugin-node@npm:^11.1.0":
   version: 11.1.0
   resolution: "eslint-plugin-node@npm:11.1.0"
@@ -18993,22 +19035,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"eslint-plugin-promise@npm:^1.1.0":
-  version: 1.3.2
-  resolution: "eslint-plugin-promise@npm:1.3.2"
-  checksum: 10c0/309968701d187cc126c0540390c0c37dfdeaf09200da8f4d806ebbdb2055b71eba9221f0917c3459716d02702fe1a1ad4d19d09315850d0950f1f35e9b0e1f50
-  languageName: node
-  linkType: hard
-
-"eslint-plugin-promise@npm:^6.1.1":
-  version: 6.6.0
-  resolution: "eslint-plugin-promise@npm:6.6.0"
-  peerDependencies:
-    eslint: ^7.0.0 || ^8.0.0 || ^9.0.0
-  checksum: 10c0/93a667dbc9ff15c4d586b0d40a31c7828314cbbb31b2b9a75802aa4ef536e9457bb3e1a89b384b07aa336dd61b315ae8b0aadc0870210378023dd018819b59b3
-  languageName: node
-  linkType: hard
-
 "eslint-plugin-promise@npm:^7.1.0":
   version: 7.1.0
   resolution: "eslint-plugin-promise@npm:7.1.0"
@@ -19036,7 +19062,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"eslint-plugin-react@npm:^7.33.2, eslint-plugin-react@npm:^7.34.3":
+"eslint-plugin-react@npm:^7.33.2":
   version: 7.35.0
   resolution: "eslint-plugin-react@npm:7.35.0"
   dependencies:
@@ -20926,7 +20952,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"get-tsconfig@npm:^4.7.5":
+"get-tsconfig@npm:^4.7.0, get-tsconfig@npm:^4.7.5":
   version: 4.8.0
   resolution: "get-tsconfig@npm:4.8.0"
   dependencies:
@@ -21183,6 +21209,13 @@ __metadata:
   dependencies:
     type-fest: "npm:^0.20.2"
   checksum: 10c0/d3c11aeea898eb83d5ec7a99508600fbe8f83d2cf00cbb77f873dbf2bcb39428eff1b538e4915c993d8a3b3473fa71eeebfe22c9bb3a3003d1e26b1f2c8a42cd
+  languageName: node
+  linkType: hard
+
+"globals@npm:^15.8.0":
+  version: 15.9.0
+  resolution: "globals@npm:15.9.0"
+  checksum: 10c0/de4b553e412e7e830998578d51b605c492256fb2a9273eaeec6ec9ee519f1c5aa50de57e3979911607fd7593a4066420e01d8c3d551e7a6a236e96c521aee36c
   languageName: node
   linkType: hard
 
@@ -28073,7 +28106,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"minimatch@npm:^9.0.1, minimatch@npm:^9.0.4":
+"minimatch@npm:^9.0.1, minimatch@npm:^9.0.4, minimatch@npm:^9.0.5":
   version: 9.0.5
   resolution: "minimatch@npm:9.0.5"
   dependencies:
@@ -38723,36 +38756,7 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"wechaty-grpc@patch:wechaty-grpc@workspace%3Apackages_wechaty/grpc#~/.yarn/patches/wechaty-grpc-workspace-24ad6e6c6c.patch":
-  version: 0.0.0-use.local
-  resolution: "wechaty-grpc@patch:wechaty-grpc@workspace%3Apackages_wechaty/grpc#~/.yarn/patches/wechaty-grpc-workspace-24ad6e6c6c.patch::version=1.5.4&hash=5ed66e"
-  dependencies:
-    "@chatie/eslint-config": "npm:^0.14.1"
-    "@chatie/git-scripts": "npm:^0.6.2"
-    "@chatie/semver": "npm:^0.4.7"
-    "@chatie/tsconfig": "npm:^0.20.2"
-    "@grpc/grpc-js": "npm:^1.3.7"
-    "@types/google-protobuf": "npm:^3.15.5"
-    "@types/protobufjs": "npm:^6.0.0"
-    cross-env: "npm:^7.0.3"
-    google-protobuf: "npm:^3.18.0"
-    grpc-tools: "npm:^1.12.4"
-    grpc_tools_node_protoc_ts: "npm:^5.3.2"
-    grpcc: "npm:^1.1.3"
-    nodemon: "npm:^2.0.12"
-    npm-run-all: "npm:^4.1.5"
-    protoc-gen-grpc: "npm:^2.0.4"
-    protoc-gen-js: "npm:^3.21.2"
-    request: "npm:^2.88.2"
-    shx: "npm:^0.3.3"
-    stronger-typed-streams: "npm:^0.2.0"
-    ts-protoc-gen: "npm:^0.15.0"
-    tstest: "npm:^0.7.3"
-  checksum: 10c0/1bb9c8a340a3b441f86bdddb4e8bf3a170b4ce9055e1107bdc9b99b58991e2ec3836142ea6e3cf22961fa2482b5501eed7534112b6a960a7ebfe0233e8d75992
-  languageName: unknown
-  linkType: soft
-
-"wechaty-grpc@workspace:packages_wechaty/grpc":
+"wechaty-grpc@workspace:^, wechaty-grpc@workspace:packages_wechaty/grpc":
   version: 0.0.0-use.local
   resolution: "wechaty-grpc@workspace:packages_wechaty/grpc"
   dependencies:
@@ -38822,7 +38826,7 @@ __metadata:
     typed-emitter: "npm:^1.5.0-from-event"
     utility-types: "npm:^3.10.0"
     uuid: "npm:^8.3.2"
-    wechaty-grpc: "patch:wechaty-grpc@workspace%3Apackages_wechaty/grpc#~/.yarn/patches/wechaty-grpc-workspace-24ad6e6c6c.patch"
+    wechaty-grpc: "workspace:^"
     wechaty-puppet-mock: "npm:^1.18.2"
     wechaty-redux: "npm:^1.20.2"
     wechaty-token: "npm:^1.0.6"

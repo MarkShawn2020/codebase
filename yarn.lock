@@ -3152,7 +3152,7 @@ __metadata:
     utf-8-validate: "npm:^6.0.4"
     wechat4u: "workspace:^"
     wechaty: "workspace:^"
-    wechaty-grpc: "patch:wechaty-grpc@workspace%3Apackages_wechaty/grpc#~/.yarn/patches/wechaty-grpc-workspace-24ad6e6c6c.patch"
+    wechaty-grpc: "workspace:^"
     wechaty-puppet: "workspace:^"
     wechaty-puppet-service: "workspace:^"
     wechaty-puppet-wechat4u: "workspace:^"
@@ -38750,36 +38750,7 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"wechaty-grpc@patch:wechaty-grpc@workspace%3Apackages_wechaty/grpc#~/.yarn/patches/wechaty-grpc-workspace-24ad6e6c6c.patch":
-  version: 0.0.0-use.local
-  resolution: "wechaty-grpc@patch:wechaty-grpc@workspace%3Apackages_wechaty/grpc#~/.yarn/patches/wechaty-grpc-workspace-24ad6e6c6c.patch::version=1.5.4&hash=b81723"
-  dependencies:
-    "@chatie/eslint-config": "npm:^0.14.1"
-    "@chatie/git-scripts": "npm:^0.6.2"
-    "@chatie/semver": "npm:^0.4.7"
-    "@chatie/tsconfig": "npm:^0.20.2"
-    "@grpc/grpc-js": "npm:^1.3.7"
-    "@types/google-protobuf": "npm:^3.15.5"
-    "@types/protobufjs": "npm:^6.0.0"
-    cross-env: "npm:^7.0.3"
-    google-protobuf: "npm:^3.18.0"
-    grpc-tools: "npm:^1.12.4"
-    grpc_tools_node_protoc_ts: "npm:^5.3.2"
-    grpcc: "npm:^1.1.3"
-    nodemon: "npm:^2.0.12"
-    npm-run-all: "npm:^4.1.5"
-    protoc-gen-grpc: "npm:^2.0.4"
-    protoc-gen-js: "npm:^3.21.2"
-    request: "npm:^2.88.2"
-    shx: "npm:^0.3.3"
-    stronger-typed-streams: "npm:^0.2.0"
-    ts-protoc-gen: "npm:^0.15.0"
-    tstest: "npm:^0.7.3"
-  checksum: 10c0/e5eef62975a292fdb96e1513c144e53a1b2330237d68448d9d8347b0ec8c0096059ebb05435efed96e580b820eabb6840644506a48174f11def9321428f628df
-  languageName: unknown
-  linkType: soft
-
-"wechaty-grpc@workspace:packages_wechaty/grpc":
+"wechaty-grpc@workspace:^, wechaty-grpc@workspace:packages_wechaty/grpc":
   version: 0.0.0-use.local
   resolution: "wechaty-grpc@workspace:packages_wechaty/grpc"
   dependencies:
@@ -38849,7 +38820,7 @@ __metadata:
     typed-emitter: "npm:^1.5.0-from-event"
     utility-types: "npm:^3.10.0"
     uuid: "npm:^8.3.2"
-    wechaty-grpc: "workspacec:^"
+    wechaty-grpc: "workspace:^"
     wechaty-puppet-mock: "npm:^1.18.2"
     wechaty-redux: "npm:^1.20.2"
     wechaty-token: "npm:^1.0.6"

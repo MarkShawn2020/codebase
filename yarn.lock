@@ -9744,7 +9744,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@trivago/prettier-plugin-sort-imports@npm:*, @trivago/prettier-plugin-sort-imports@npm:^4.3.0":
+"@trivago/prettier-plugin-sort-imports@npm:^4.3.0":
   version: 4.3.0
   resolution: "@trivago/prettier-plugin-sort-imports@npm:4.3.0"
   dependencies:
@@ -10762,13 +10762,6 @@ __metadata:
     "@types/node": "npm:*"
     xmlbuilder: "npm:>=11.0.1"
   checksum: 10c0/2a929f4482e3bea8c3288a46ae589a2ae2d01df5b7841ead7032d7baa79d79af6c875a5798c90705eea9306c2fb1544d7ed12ab3c905c5626d5dd5dc9f464b94
-  languageName: node
-  linkType: hard
-
-"@types/prettier@npm:*":
-  version: 2.7.3
-  resolution: "@types/prettier@npm:2.7.3"
-  checksum: 10c0/0960b5c1115bb25e979009d0b44c42cf3d792accf24085e4bfce15aef5794ea042e04e70c2139a2c3387f781f18c89b5706f000ddb089e9a4a2ccb7536a2c5f0
   languageName: node
   linkType: hard
 
@@ -24256,7 +24249,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"jest@npm:^29.6.3, jest@npm:^29.7.0":
+"jest@npm:^29.7.0":
   version: 29.7.0
   resolution: "jest@npm:29.7.0"
   dependencies:
@@ -31097,7 +31090,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"prettier@npm:*, prettier@npm:^3.3.3":
+"prettier@npm:^3.3.3":
   version: 3.3.3
   resolution: "prettier@npm:3.3.3"
   bin:

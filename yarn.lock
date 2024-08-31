@@ -3074,6 +3074,7 @@ __metadata:
     tailwindcss-animate: "npm:^1.0.7"
     typescript: "npm:*"
     unist-util-visit-parents: "npm:^6.0.1"
+    vite: "npm:^5.4.2"
     zod: "npm:*"
   languageName: unknown
   linkType: soft
@@ -3174,7 +3175,6 @@ __metadata:
     "@types/react-dom": "npm:*"
     "@uiw/react-md-editor": "npm:^4.0.4"
     ansicolors: "npm:^0.3.2"
-    copyfiles: "npm:*"
     jotai: "npm:*"
     lodash-es: "npm:^4.17.21"
     lucide-react: "npm:*"
@@ -3186,7 +3186,7 @@ __metadata:
     react-dom: "npm:*"
     react-use: "npm:^17.5.1"
     sonner: "npm:^1.5.0"
-    ts-patch: "npm:*"
+    vite: "npm:^5.4.2"
     wechaty-puppet: "workspace:^"
   languageName: unknown
   linkType: soft
@@ -38465,7 +38465,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"vite@npm:^5.3.1":
+"vite@npm:^5.3.1, vite@npm:^5.4.2":
   version: 5.4.2
   resolution: "vite@npm:5.4.2"
   dependencies:

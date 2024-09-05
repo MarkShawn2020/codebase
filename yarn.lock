@@ -3202,6 +3202,7 @@ __metadata:
     "@cs-magic/eslint-config": "workspace:^"
     "@cs-magic/swot-backend": "workspace:^"
     "@cs-magic/swot-frontend-common": "workspace:^"
+    "@cs-magic/swot-web": "workspace:^"
     "@electron-toolkit/eslint-config-prettier": "npm:^2.0.0"
     "@electron-toolkit/eslint-config-ts": "npm:^2.0.0"
     "@electron-toolkit/preload": "npm:^3.0.1"
@@ -3237,14 +3238,13 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"@cs-magic/swot-web@workspace:app_swot/frontend_web":
+"@cs-magic/swot-web@workspace:^, @cs-magic/swot-web@workspace:app_swot/frontend_web":
   version: 0.0.0-use.local
   resolution: "@cs-magic/swot-web@workspace:app_swot/frontend_web"
   dependencies:
     "@alicloud/dysmsapi20170525": "npm:2.0.24"
     "@alicloud/dysmsapi20180501": "npm:^1.0.4"
     "@auth/prisma-adapter": "npm:^1.4.0"
-    "@cs-magic/commands": "workspace:^"
     "@cs-magic/common": "workspace:^"
     "@cs-magic/llm": "workspace:^"
     "@cs-magic/react": "workspace:^"

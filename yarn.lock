@@ -9575,6 +9575,13 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@tauri-apps/api@npm:^1":
+  version: 1.6.0
+  resolution: "@tauri-apps/api@npm:1.6.0"
+  checksum: 10c0/c3d9a0126093061b95c968d346dc47bb3ca99056a3b03b53b9f8d8f37c539479298495b79df095c2745a10dcbd4e40e161ec4b148819df2acfa20fa61845001b
+  languageName: node
+  linkType: hard
+
 "@tauri-apps/cli-darwin-arm64@npm:1.6.1":
   version: 1.6.1
   resolution: "@tauri-apps/cli-darwin-arm64@npm:1.6.1"
@@ -9645,7 +9652,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@tauri-apps/cli@npm:^1.5.14":
+"@tauri-apps/cli@npm:^1, @tauri-apps/cli@npm:^1.5.14":
   version: 1.6.1
   resolution: "@tauri-apps/cli@npm:1.6.1"
   dependencies:
@@ -11544,7 +11551,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@vitejs/plugin-react@npm:^4.3.1":
+"@vitejs/plugin-react@npm:^4.2.1, @vitejs/plugin-react@npm:^4.3.1":
   version: 4.3.1
   resolution: "@vitejs/plugin-react@npm:4.3.1"
   dependencies:
@@ -34309,6 +34316,22 @@ __metadata:
   checksum: 10c0/86fd49983e2edc153ee2e674a570c711cb0961a9cacca659309f79636ccc8ca8a0b830ea4dacdae7403a8bb7ba6affd5bcdce053aa97782961247a49bfd2ba68
   languageName: node
   linkType: hard
+
+"screensaver@workspace:app_screensaver/screensaver":
+  version: 0.0.0-use.local
+  resolution: "screensaver@workspace:app_screensaver/screensaver"
+  dependencies:
+    "@tauri-apps/api": "npm:^1"
+    "@tauri-apps/cli": "npm:^1"
+    "@types/react": "npm:^18.2.15"
+    "@types/react-dom": "npm:^18.2.7"
+    "@vitejs/plugin-react": "npm:^4.2.1"
+    react: "npm:^18.2.0"
+    react-dom: "npm:^18.2.0"
+    typescript: "npm:^5.2.2"
+    vite: "npm:^5.3.1"
+  languageName: unknown
+  linkType: soft
 
 "scslre@npm:^0.2.0":
   version: 0.2.0

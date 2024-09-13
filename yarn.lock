@@ -2707,15 +2707,16 @@ __metadata:
     next: "npm:*"
     next-fonts: "npm:^1.5.1"
     next-i18next: "npm:*"
+    next-theme: "npm:^0.1.5"
     numeral: "npm:^2.0.6"
     postcss: "npm:^8.4.26"
     prisma: "npm:*"
     qrcode.react: "npm:^3.1.0"
-    react: "npm:^18.3.1"
+    react: "npm:*"
     react-cookie: "npm:^4.1.1"
-    react-dom: "npm:^18.3.1"
+    react-dom: "npm:*"
     react-hook-form: "npm:*"
-    react-i18next: "npm:^15.0.1"
+    react-i18next: "npm:*"
     react-infinite-scroll-hook: "npm:^4.1.1"
     react-markdown: "npm:^8.0.7"
     react-masonry-css: "npm:^1.0.16"
@@ -29057,6 +29058,17 @@ __metadata:
     react: ">= 17.0.2"
     react-i18next: ^12.2.0
   checksum: 10c0/43dce91f5a5fa318304228bd04d95515cebe996096a5aa4459f8d7e20a702fb4101d00443c83df0bb114d3900d79cdc3a53a12f5cb3c961b19d68f549db36741
+  languageName: node
+  linkType: hard
+
+"next-theme@npm:^0.1.5":
+  version: 0.1.5
+  resolution: "next-theme@npm:0.1.5"
+  peerDependencies:
+    next: "*"
+    react: "*"
+    react-dom: "*"
+  checksum: 10c0/f782c60641cd7fafbd9d8a210bf8504509de4f29501e51a8eb94202432ce9963b57b7e3e38a9889fe1f62dcb2a74b71fdc0e696a3ae04b3ee078454852222444
   languageName: node
   linkType: hard
 

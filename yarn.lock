@@ -9670,6 +9670,7 @@ __metadata:
     prisma: "npm:^5"
   bin:
     ggg: scripts/ggg.sh
+    gs: git status
   languageName: unknown
   linkType: soft
 

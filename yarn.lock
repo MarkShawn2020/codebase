@@ -2458,18 +2458,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@cs-magic/chrome-ext-claude-enhancer@workspace:app_chrome-exts/claude-enhancer":
-  version: 0.0.0-use.local
-  resolution: "@cs-magic/chrome-ext-claude-enhancer@workspace:app_chrome-exts/claude-enhancer"
-  dependencies:
-    "@cs-magic/shadcn": "workspace:^"
-    "@cs-magic/tools": "workspace:^"
-    "@types/chrome": "npm:^0.0.270"
-    jszip: "npm:^3.10.1"
-    webpack: "npm:^5.94.0"
-  languageName: unknown
-  linkType: soft
-
 "@cs-magic/commands@workspace:^, @cs-magic/commands@workspace:packages_tools/commands":
   version: 0.0.0-use.local
   resolution: "@cs-magic/commands@workspace:packages_tools/commands"
@@ -2672,6 +2660,18 @@ __metadata:
     zod: "npm:*"
     zod-prisma: "npm:^0.5.4"
     zustand: "npm:^4.5.2"
+  languageName: unknown
+  linkType: soft
+
+"@cs-magic/ext-chrome-claude-enhancer@workspace:app_ext-chrome/claude-enhancer":
+  version: 0.0.0-use.local
+  resolution: "@cs-magic/ext-chrome-claude-enhancer@workspace:app_ext-chrome/claude-enhancer"
+  dependencies:
+    "@cs-magic/shadcn": "workspace:^"
+    "@cs-magic/tools": "workspace:^"
+    "@types/chrome": "npm:^0.0.270"
+    jszip: "npm:^3.10.1"
+    webpack: "npm:^5.94.0"
   languageName: unknown
   linkType: soft
 

@@ -2680,6 +2680,7 @@ __metadata:
     "@types/html2canvas": "npm:^1.0.0"
     html2canvas: "npm:^1.4.1"
     jszip: "npm:^3.10.1"
+    modern-screenshot: "npm:^4.4.39"
     webpack: "npm:^5.94.0"
   languageName: unknown
   linkType: soft
@@ -29527,7 +29528,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"modern-screenshot@npm:^4.4.38":
+"modern-screenshot@npm:^4.4.38, modern-screenshot@npm:^4.4.39":
   version: 4.4.39
   resolution: "modern-screenshot@npm:4.4.39"
   checksum: 10c0/6482c1b08a4562f28d9b4e43c2c2aea7e7a353501b39c1b92d5e7942f8d1fabba3ea9fb4b930b246741ba82c74f51ff371b5bb457bcab155bb2385b22e019f43

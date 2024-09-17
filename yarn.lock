@@ -2677,6 +2677,8 @@ __metadata:
     "@cs-magic/shadcn": "workspace:^"
     "@cs-magic/tools": "workspace:^"
     "@types/chrome": "npm:^0.0.270"
+    "@types/html2canvas": "npm:^1.0.0"
+    html2canvas: "npm:^1.4.1"
     jszip: "npm:^3.10.1"
     webpack: "npm:^5.94.0"
   languageName: unknown
@@ -11186,6 +11188,15 @@ __metadata:
     "@types/react": "npm:*"
     hoist-non-react-statics: "npm:^3.3.0"
   checksum: 10c0/2a3b64bf3d9817d7830afa60ee314493c475fb09570a64e7737084cd482d2177ebdddf888ce837350bac51741278b077683facc9541f052d4bbe8487b4e3e618
+  languageName: node
+  linkType: hard
+
+"@types/html2canvas@npm:^1.0.0":
+  version: 1.0.0
+  resolution: "@types/html2canvas@npm:1.0.0"
+  dependencies:
+    html2canvas: "npm:*"
+  checksum: 10c0/f6bf317267cc6d755d9975f72de43a618a3555a715dfca2049f6ef2a7e7b502c1a98d7aa9c598b3c7cf599ffdbca14e68b11d200cfec5f1fa91a7fafaf74775a
   languageName: node
   linkType: hard
 
@@ -23210,7 +23221,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"html2canvas@npm:^1.4.1":
+"html2canvas@npm:*, html2canvas@npm:^1.4.1":
   version: 1.4.1
   resolution: "html2canvas@npm:1.4.1"
   dependencies:

@@ -2681,6 +2681,7 @@ __metadata:
     html2canvas: "npm:^1.4.1"
     jszip: "npm:^3.10.1"
     modern-screenshot: "npm:^4.4.39"
+    ts-loader: "npm:^9.5.1"
     webpack: "npm:^5.94.0"
   languageName: unknown
   linkType: soft

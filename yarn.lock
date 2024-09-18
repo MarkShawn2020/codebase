@@ -2485,7 +2485,7 @@ __metadata:
   resolution: "@cs-magic/common@workspace:packages/common"
   dependencies:
     "@alicloud/dysmsapi20170525": "npm:^3.0.0"
-    "@prisma/client": "npm:^5.18.0"
+    "@prisma/client": "npm:*"
     "@types/ali-oss": "npm:^6.16.11"
     "@types/ansicolors": "npm:^0"
     "@types/async-lock": "npm:^1.4.2"
@@ -6586,7 +6586,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@prisma/client@npm:5, @prisma/client@npm:^5.1.1, @prisma/client@npm:^5.10.2, @prisma/client@npm:^5.6.0":
+"@prisma/client@npm:^5.19.1":
   version: 5.19.1
   resolution: "@prisma/client@npm:5.19.1"
   peerDependencies:
@@ -6595,18 +6595,6 @@ __metadata:
     prisma:
       optional: true
   checksum: 10c0/3fd0c77c831cf592155539d0d369849d5c4f6bbe483b7e5ed476aad29434491a0d5a63ebcda86852484b808fa94bdd614c7715fb2084c0696fdcedd21d3671fb
-  languageName: node
-  linkType: hard
-
-"@prisma/client@npm:^5.18.0, @prisma/client@npm:^5.19.0":
-  version: 5.19.0
-  resolution: "@prisma/client@npm:5.19.0"
-  peerDependencies:
-    prisma: "*"
-  peerDependenciesMeta:
-    prisma:
-      optional: true
-  checksum: 10c0/df2604d5d392ed9717a8f6db70d745d8234099d24f23fa1e394b4a53598816227c7e89bf546928b8a457eb13b1580e914327a6033bceb49e6e5f9983d39f6214
   languageName: node
   linkType: hard
 
@@ -6649,13 +6637,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@prisma/engines-version@npm:5.19.1-2.69d742ee20b815d88e17e54db4a2a7a3b30324e3":
-  version: 5.19.1-2.69d742ee20b815d88e17e54db4a2a7a3b30324e3
-  resolution: "@prisma/engines-version@npm:5.19.1-2.69d742ee20b815d88e17e54db4a2a7a3b30324e3"
-  checksum: 10c0/9bf4ad5b199054fe56a96ddbda1b835e7f103d690d2b7d04c159f29399261356516ec8881e8caf637bd4523395ccc4ce450013a0c9a8a3ffa16d2fc15b93bfa8
-  languageName: node
-  linkType: hard
-
 "@prisma/engines@npm:5.19.0":
   version: 5.19.0
   resolution: "@prisma/engines@npm:5.19.0"
@@ -6668,18 +6649,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@prisma/engines@npm:5.19.1":
-  version: 5.19.1
-  resolution: "@prisma/engines@npm:5.19.1"
-  dependencies:
-    "@prisma/debug": "npm:5.19.1"
-    "@prisma/engines-version": "npm:5.19.1-2.69d742ee20b815d88e17e54db4a2a7a3b30324e3"
-    "@prisma/fetch-engine": "npm:5.19.1"
-    "@prisma/get-platform": "npm:5.19.1"
-  checksum: 10c0/d12893935d842fea1c5344e3ab0f769b01ec1c71a91bec3ac9ceb58838fe7f745d226d5b8b9ac386ad503c56773272586bb73188d592ec8d4e05f43285009155
-  languageName: node
-  linkType: hard
-
 "@prisma/fetch-engine@npm:5.19.0":
   version: 5.19.0
   resolution: "@prisma/fetch-engine@npm:5.19.0"
@@ -6688,17 +6657,6 @@ __metadata:
     "@prisma/engines-version": "npm:5.19.0-31.5fe21811a6ba0b952a3bc71400666511fe3b902f"
     "@prisma/get-platform": "npm:5.19.0"
   checksum: 10c0/ae8193017971b3a7a58bdbdc8c8c7f064042e46f58d6d7d7bdac0b3a02c19050c6843ef520d23542c3778bd502567418db677958a9e7a07df9124f207c413fdd
-  languageName: node
-  linkType: hard
-
-"@prisma/fetch-engine@npm:5.19.1":
-  version: 5.19.1
-  resolution: "@prisma/fetch-engine@npm:5.19.1"
-  dependencies:
-    "@prisma/debug": "npm:5.19.1"
-    "@prisma/engines-version": "npm:5.19.1-2.69d742ee20b815d88e17e54db4a2a7a3b30324e3"
-    "@prisma/get-platform": "npm:5.19.1"
-  checksum: 10c0/670d3f604549c4778d32febe56d948896b5c16dad5b51814c5b168a6007c9782d453cebee43cb81ddd58c9e9538811ea1a793516420ecf2c84ae4c3b4ed34f6c
   languageName: node
   linkType: hard
 
@@ -6738,15 +6696,6 @@ __metadata:
   dependencies:
     "@prisma/debug": "npm:5.19.0"
   checksum: 10c0/bd14a2937a30230a101a6ab785d8a41658450b6139e5597e7b156a5e29573cbe67ea9af245a767646aa7073f278b495df76de2a50fcb376f54e11e6c5a710420
-  languageName: node
-  linkType: hard
-
-"@prisma/get-platform@npm:5.19.1":
-  version: 5.19.1
-  resolution: "@prisma/get-platform@npm:5.19.1"
-  dependencies:
-    "@prisma/debug": "npm:5.19.1"
-  checksum: 10c0/a53b5c894cf4074af6164d9c503e387aba92c518ad7bad82be40f834a0030270c60f6149b20951c3e1db32bd836f582053e63c4bf7099461f0160dd5956f063e
   languageName: node
   linkType: hard
 
@@ -17075,6 +17024,7 @@ __metadata:
   resolution: "cs-magic@workspace:."
   dependencies:
     "@cs-magic/tools": "workspace:^"
+    "@prisma/client": "npm:^5.19.1"
     "@tailwindcss/forms": "npm:^0.5.9"
     "@tailwindcss/typography": "npm:^0.5.15"
     "@types/node": "npm:^22.5.4"
@@ -32910,7 +32860,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"prisma@npm:*, prisma@npm:^5":
+"prisma@npm:^5":
   version: 5.19.0
   resolution: "prisma@npm:5.19.0"
   dependencies:
@@ -32922,21 +32872,6 @@ __metadata:
   bin:
     prisma: build/index.js
   checksum: 10c0/ff400bef47e440cee1de31e854fb8efd43a01e5dbbc77b5e19d946ee8743309456efdba47f0f367f90ea8ed4014ca91b841dc99f1f5a745d69ed7d9b7a6f10b6
-  languageName: node
-  linkType: hard
-
-"prisma@npm:5, prisma@npm:^5.18.0":
-  version: 5.19.1
-  resolution: "prisma@npm:5.19.1"
-  dependencies:
-    "@prisma/engines": "npm:5.19.1"
-    fsevents: "npm:2.3.3"
-  dependenciesMeta:
-    fsevents:
-      optional: true
-  bin:
-    prisma: build/index.js
-  checksum: 10c0/efbe4966fc5450e8c3c7e09f8e9950c2068e90f44b1cbb3584f4e48d7188a4d5230ec8fb12c3b9ba75fa7407fe45c0527123579e121a31ef652512f39c29c2d9
   languageName: node
   linkType: hard
 

@@ -2669,6 +2669,14 @@ __metadata:
   languageName: unknown
   linkType: soft
 
+"@cs-magic/exts_chrome_chatbot-exporter@workspace:exts_chrome/chatbot-exporter":
+  version: 0.0.0-use.local
+  resolution: "@cs-magic/exts_chrome_chatbot-exporter@workspace:exts_chrome/chatbot-exporter"
+  dependencies:
+    webpack: "npm:^5.94.0"
+  languageName: unknown
+  linkType: soft
+
 "@cs-magic/exts_chrome_claude-enhancer@workspace:exts_chrome/claude-enhancer":
   version: 0.0.0-use.local
   resolution: "@cs-magic/exts_chrome_claude-enhancer@workspace:exts_chrome/claude-enhancer"

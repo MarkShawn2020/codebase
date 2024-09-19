@@ -2458,49 +2458,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@cs-magic/card-gpt-web@workspace:app_card-gpt/card-gpt":
-  version: 0.0.0-use.local
-  resolution: "@cs-magic/card-gpt-web@workspace:app_card-gpt/card-gpt"
-  dependencies:
-    "@emotion/react": "npm:^11.13.3"
-    "@emotion/styled": "npm:^11.13.0"
-    "@hookform/resolvers": "npm:^3.3.1"
-    "@mui/material": "npm:^6.1.1"
-    "@radix-ui/react-label": "npm:^2.0.2"
-    "@radix-ui/react-slot": "npm:^1.0.2"
-    "@tailwindcss/forms": "npm:^0.5.6"
-    "@tailwindcss/typography": "npm:^0.5.10"
-    "@types/node": "npm:20.6.2"
-    "@types/react": "npm:18.2.21"
-    "@types/react-dom": "npm:18.2.7"
-    "@upstash/ratelimit": "npm:^0.4.4"
-    "@vercel/analytics": "npm:^1.0.2"
-    "@vercel/blob": "npm:^0.12.4"
-    "@vercel/kv": "npm:^0.2.2"
-    autoprefixer: "npm:10.4.15"
-    class-variance-authority: "npm:^0.7.0"
-    clsx: "npm:^2.0.0"
-    eslint: "npm:8.49.0"
-    eslint-config-next: "npm:13.4.19"
-    lucide-react: "npm:^0.279.0"
-    nanoid: "npm:^5.0.1"
-    next: "npm:^13.5.2"
-    next-plausible: "npm:^3.11.3"
-    postcss: "npm:8.4.29"
-    prettier: "npm:^3.0.3"
-    react: "npm:18.2.0"
-    react-dom: "npm:18.2.0"
-    react-hook-form: "npm:^7.46.1"
-    react-hot-toast: "npm:^2.4.1"
-    replicate: "npm:^0.18.0"
-    tailwind-merge: "npm:^1.14.0"
-    tailwindcss: "npm:3.3.3"
-    tailwindcss-animate: "npm:^1.0.7"
-    typescript: "npm:5.2.2"
-    zod: "npm:^3.22.2"
-  languageName: unknown
-  linkType: soft
-
 "@cs-magic/commands@workspace:^, @cs-magic/commands@workspace:packages_tools/commands":
   version: 0.0.0-use.local
   resolution: "@cs-magic/commands@workspace:packages_tools/commands"
@@ -3506,6 +3463,49 @@ __metadata:
     "@cs-magic/tailwindcss": "workspace:^"
     "@cs-magic/tspc": "workspace:^"
     "@cs-magic/webpack": "workspace:^"
+  languageName: unknown
+  linkType: soft
+
+"@cs-magic/totem-gpt-web@workspace:app_totem-gpt/totem-gpt":
+  version: 0.0.0-use.local
+  resolution: "@cs-magic/totem-gpt-web@workspace:app_totem-gpt/totem-gpt"
+  dependencies:
+    "@emotion/react": "npm:^11.13.3"
+    "@emotion/styled": "npm:^11.13.0"
+    "@hookform/resolvers": "npm:^3.3.1"
+    "@mui/material": "npm:^6.1.1"
+    "@radix-ui/react-label": "npm:^2.0.2"
+    "@radix-ui/react-slot": "npm:^1.0.2"
+    "@tailwindcss/forms": "npm:^0.5.6"
+    "@tailwindcss/typography": "npm:^0.5.10"
+    "@types/node": "npm:20.6.2"
+    "@types/react": "npm:18.2.21"
+    "@types/react-dom": "npm:18.2.7"
+    "@upstash/ratelimit": "npm:^0.4.4"
+    "@vercel/analytics": "npm:^1.0.2"
+    "@vercel/blob": "npm:^0.12.4"
+    "@vercel/kv": "npm:^0.2.2"
+    autoprefixer: "npm:10.4.15"
+    class-variance-authority: "npm:^0.7.0"
+    clsx: "npm:^2.0.0"
+    eslint: "npm:8.49.0"
+    eslint-config-next: "npm:13.4.19"
+    lucide-react: "npm:^0.279.0"
+    nanoid: "npm:^5.0.1"
+    next: "npm:^13.5.2"
+    next-plausible: "npm:^3.11.3"
+    postcss: "npm:8.4.29"
+    prettier: "npm:^3.0.3"
+    react: "npm:18.2.0"
+    react-dom: "npm:18.2.0"
+    react-hook-form: "npm:^7.46.1"
+    react-hot-toast: "npm:^2.4.1"
+    replicate: "npm:^0.18.0"
+    tailwind-merge: "npm:^1.14.0"
+    tailwindcss: "npm:3.3.3"
+    tailwindcss-animate: "npm:^1.0.7"
+    typescript: "npm:5.2.2"
+    zod: "npm:^3.22.2"
   languageName: unknown
   linkType: soft
 

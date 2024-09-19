@@ -2677,9 +2677,9 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"@cs-magic/exts_chrome_claude-enhancer@workspace:exts_chrome/claude-enhancer":
+"@cs-magic/exts_chrome_claude-artifact-enhancer@workspace:exts_chrome/claude-artifact-enhancer":
   version: 0.0.0-use.local
-  resolution: "@cs-magic/exts_chrome_claude-enhancer@workspace:exts_chrome/claude-enhancer"
+  resolution: "@cs-magic/exts_chrome_claude-artifact-enhancer@workspace:exts_chrome/claude-artifact-enhancer"
   dependencies:
     "@cs-magic/common-frontend": "workspace:^"
     "@cs-magic/shadcn": "workspace:^"

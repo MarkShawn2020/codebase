@@ -2580,6 +2580,9 @@ __metadata:
 "@cs-magic/common-frontend@workspace:^, @cs-magic/common-frontend@workspace:packages_frontend/common":
   version: 0.0.0-use.local
   resolution: "@cs-magic/common-frontend@workspace:packages_frontend/common"
+  dependencies:
+    html2canvas: "npm:^1.4.1"
+    modern-screenshot: "npm:^4.4.39"
   languageName: unknown
   linkType: soft
 

@@ -17258,6 +17258,7 @@ __metadata:
     "@tailwindcss/forms": "npm:^0.5.9"
     "@tailwindcss/typography": "npm:^0.5.15"
     "@types/node": "npm:^22.5.4"
+    npm-run-all: "npm:^4.1.5"
     postcss-import: "npm:^16.1.0"
     prisma: "npm:^5"
   languageName: unknown

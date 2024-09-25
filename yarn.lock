@@ -3403,8 +3403,12 @@ __metadata:
     vite: "npm:^5.3.1"
     vite-plugin-commonjs: "npm:^0.10.1"
     vite-plugin-wasm: "npm:^3.3.0"
+    wechat4u: "workspace:^"
+    wechaty: "workspace:^"
+    wechaty-grpc: "workspace:^"
     wechaty-puppet: "workspace:^"
     wechaty-puppet-service: "workspace:^"
+    wechaty-puppet-wechat4u: "workspace:^"
   languageName: unknown
   linkType: soft
 

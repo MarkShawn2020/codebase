@@ -2641,27 +2641,6 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"@cs-magic/docs@workspace:app_home/docs":
-  version: 0.0.0-use.local
-  resolution: "@cs-magic/docs@workspace:app_home/docs"
-  dependencies:
-    "@types/mdx": "npm:^2.0.13"
-    "@types/node": "npm:22.5.4"
-    "@types/react": "npm:^18.3.5"
-    "@types/react-dom": "npm:^18.3.0"
-    autoprefixer: "npm:^10.4.20"
-    fumadocs-core: "npm:13.4.10"
-    fumadocs-mdx: "npm:10.0.2"
-    fumadocs-ui: "npm:13.4.10"
-    next: "npm:^14.2.8"
-    postcss: "npm:^8.4.45"
-    react: "npm:^18.3.1"
-    react-dom: "npm:^18.3.1"
-    tailwindcss: "npm:^3.4.10"
-    typescript: "npm:^5.5.4"
-  languageName: unknown
-  linkType: soft
-
 "@cs-magic/eslint-config@workspace:^, @cs-magic/eslint-config@workspace:packages_tools/eslint":
   version: 0.0.0-use.local
   resolution: "@cs-magic/eslint-config@workspace:packages_tools/eslint"
@@ -2822,9 +2801,9 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"@cs-magic/home@workspace:app_home/web":
+"@cs-magic/home-v1@workspace:app_home/home_v1":
   version: 0.0.0-use.local
-  resolution: "@cs-magic/home@workspace:app_home/web"
+  resolution: "@cs-magic/home-v1@workspace:app_home/home_v1"
   dependencies:
     "@babel/core": "npm:^7.25.2"
     "@cs-magic/react": "workspace:^"
@@ -2894,6 +2873,27 @@ __metadata:
     webpack: "npm:^5.93.0"
     zod: "npm:*"
     zustand: "npm:^4.3.9"
+  languageName: unknown
+  linkType: soft
+
+"@cs-magic/home@workspace:app_home/home":
+  version: 0.0.0-use.local
+  resolution: "@cs-magic/home@workspace:app_home/home"
+  dependencies:
+    "@types/mdx": "npm:^2.0.13"
+    "@types/node": "npm:22.5.4"
+    "@types/react": "npm:^18.3.5"
+    "@types/react-dom": "npm:^18.3.0"
+    autoprefixer: "npm:^10.4.20"
+    fumadocs-core: "npm:13.4.10"
+    fumadocs-mdx: "npm:10.0.2"
+    fumadocs-ui: "npm:13.4.10"
+    next: "npm:^14.2.8"
+    postcss: "npm:^8.4.45"
+    react: "npm:^18.3.1"
+    react-dom: "npm:^18.3.1"
+    tailwindcss: "npm:^3.4.10"
+    typescript: "npm:^5.5.4"
   languageName: unknown
   linkType: soft
 

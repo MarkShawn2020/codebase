@@ -2889,6 +2889,7 @@ __metadata:
     fumadocs-mdx: "npm:10.0.2"
     fumadocs-ui: "npm:13.4.10"
     next: "npm:^14.2.8"
+    npm-run-all: "npm:^4.1.5"
     postcss: "npm:^8.4.45"
     react: "npm:^18.3.1"
     react-dom: "npm:^18.3.1"

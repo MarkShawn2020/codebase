@@ -2881,18 +2881,18 @@ __metadata:
   resolution: "@cs-magic/home@workspace:app_home/home"
   dependencies:
     "@types/mdx": "npm:^2.0.13"
-    "@types/node": "npm:22.5.4"
+    "@types/node": "npm:*"
     "@types/react": "npm:^18.3.5"
     "@types/react-dom": "npm:^18.3.0"
     autoprefixer: "npm:^10.4.20"
     fumadocs-core: "npm:13.4.10"
     fumadocs-mdx: "npm:10.0.2"
     fumadocs-ui: "npm:13.4.10"
-    next: "npm:^14.2.8"
+    next: "npm:*"
     npm-run-all: "npm:^4.1.5"
     postcss: "npm:^8.4.45"
-    react: "npm:^18.3.1"
-    react-dom: "npm:^18.3.1"
+    react: "npm:*"
+    react-dom: "npm:*"
     tailwindcss: "npm:^3.4.10"
     typescript: "npm:^5.5.4"
   languageName: unknown
@@ -3220,6 +3220,7 @@ __metadata:
     "@radix-ui/react-toast": "npm:^1.2.1"
     "@radix-ui/react-tooltip": "npm:^1.1.2"
     "@tabler/icons-react": "npm:^3.12.0"
+    "@types/copyfiles": "npm:^2"
     "@types/eslint": "npm:*"
     "@types/react": "npm:^18.3.3"
     "@types/react-dom": "npm:^18.3.0"
@@ -3230,6 +3231,7 @@ __metadata:
     class-variance-authority: "npm:^0.7.0"
     clsx: "npm:^2.1.1"
     cmdk: "npm:1.0.0"
+    copyfiles: "npm:^2.4.1"
     eslint: "npm:*"
     eslint-config-next: "npm:*"
     i18next: "npm:*"
@@ -10939,6 +10941,13 @@ __metadata:
   version: 0.4.1
   resolution: "@types/cookie@npm:0.4.1"
   checksum: 10c0/f96afe12bd51be1ec61410b0641243d93fa3a494702407c787a4c872b5c8bcd39b224471452055e44a9ce42af1a636e87d161994226eaf4c2be9c30f60418409
+  languageName: node
+  linkType: hard
+
+"@types/copyfiles@npm:^2":
+  version: 2.4.4
+  resolution: "@types/copyfiles@npm:2.4.4"
+  checksum: 10c0/c57d13c4a4fa85ba052cce3921cc73624a64df40077e2fa9ba704ddf43a2c342e151c0e090531e3366dc5545cc2e48649933aaf501070923f11374fac42f9e2a
   languageName: node
   linkType: hard
 

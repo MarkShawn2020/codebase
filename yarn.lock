@@ -3314,7 +3314,7 @@ __metadata:
     react-hook-form: "npm:*"
     react-resizable-panels: "npm:^2.1.1"
     recharts: "npm:^2.12.7"
-    sonner: "npm:^1.5.0"
+    sonner: "npm:*"
     tailwind-merge: "npm:^2.5.2"
     tailwindcss: "npm:^3.4.10"
     tailwindcss-animate: "npm:^1.0.7"
@@ -3559,7 +3559,7 @@ __metadata:
     rehype-katex: "npm:^7.0.0"
     remark-math: "npm:^6.0.0"
     server-only: "npm:^0.0.1"
-    sonner: "npm:1.4.3"
+    sonner: "npm:*"
     superjson: "npm:^2.2.1"
     tailwind-merge: "npm:^2.3.0"
     tailwindcss: "npm:^3.4.1"
@@ -17440,7 +17440,7 @@ __metadata:
     "@tailwindcss/forms": "npm:^0.5.9"
     "@tailwindcss/typography": "npm:^0.5.15"
     "@types/lodash": "npm:^4.14.202"
-    "@types/node": "npm:^22.5.4"
+    "@types/node": "npm:^22.0.0"
     lodash: "npm:^4.17.21"
     npm-run-all: "npm:^4.1.5"
     postcss-import: "npm:^16.1.0"
@@ -37396,27 +37396,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"sonner@npm:1.4.3":
-  version: 1.4.3
-  resolution: "sonner@npm:1.4.3"
-  peerDependencies:
-    react: ^18.0.0
-    react-dom: ^18.0.0
-  checksum: 10c0/d105a3195a5e72b85a13abc460da2cbb8a05133da57fd2f1084593edca5b6a839a7263a4e872952d9e550a19f2262fbc22113be30a4c9b3dee9e6d359a0cef34
-  languageName: node
-  linkType: hard
-
-"sonner@npm:^0.6.2":
-  version: 0.6.2
-  resolution: "sonner@npm:0.6.2"
-  peerDependencies:
-    react: ^18.0.0
-    react-dom: ^18.0.0
-  checksum: 10c0/9ec6db941a7846e9dde10af2d86ae9bdbd54d7a887c613b0fdf7ca4852ecc2bf2e52728aea330c5a7cd4a954219dd6a8058eca079bb22a719ffec33f2e1f2eb7
-  languageName: node
-  linkType: hard
-
-"sonner@npm:^1.2.0, sonner@npm:^1.2.4, sonner@npm:^1.5.0":
+"sonner@npm:^1.5.0":
   version: 1.5.0
   resolution: "sonner@npm:1.5.0"
   peerDependencies:

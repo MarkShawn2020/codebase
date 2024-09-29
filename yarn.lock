@@ -2561,9 +2561,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@cs-magic/assistant-backend@workspace:^, @cs-magic/assistant-backend@workspace:app_neurora-assistant/backend":
+"@cs-magic/assistant-backend@workspace:^, @cs-magic/assistant-backend@workspace:app_assistant/backend":
   version: 0.0.0-use.local
-  resolution: "@cs-magic/assistant-backend@workspace:app_neurora-assistant/backend"
+  resolution: "@cs-magic/assistant-backend@workspace:app_assistant/backend"
   dependencies:
     "@cs-magic/common": "workspace:^"
     "@cs-magic/llm": "workspace:^"
@@ -2587,9 +2587,9 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"@cs-magic/assistant-frontend-common@workspace:^, @cs-magic/assistant-frontend-common@workspace:app_neurora-assistant/frontend_common":
+"@cs-magic/assistant-frontend-common@workspace:^, @cs-magic/assistant-frontend-common@workspace:app_assistant/frontend_common":
   version: 0.0.0-use.local
-  resolution: "@cs-magic/assistant-frontend-common@workspace:app_neurora-assistant/frontend_common"
+  resolution: "@cs-magic/assistant-frontend-common@workspace:app_assistant/frontend_common"
   dependencies:
     "@cs-magic/assistant-backend": "workspace:^"
     "@cs-magic/common": "workspace:^"
@@ -2621,9 +2621,9 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"@cs-magic/assistant-pc@workspace:app_neurora-assistant/frontend_pc":
+"@cs-magic/assistant-pc@workspace:app_assistant/frontend_pc":
   version: 0.0.0-use.local
-  resolution: "@cs-magic/assistant-pc@workspace:app_neurora-assistant/frontend_pc"
+  resolution: "@cs-magic/assistant-pc@workspace:app_assistant/frontend_pc"
   dependencies:
     "@babel/core": "npm:^7.24.8"
     "@babel/preset-env": "npm:^7.24.8"
@@ -2674,9 +2674,9 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"@cs-magic/assistant-web@workspace:^, @cs-magic/assistant-web@workspace:app_neurora-assistant/frontend_web":
+"@cs-magic/assistant-web@workspace:^, @cs-magic/assistant-web@workspace:app_assistant/frontend_web":
   version: 0.0.0-use.local
-  resolution: "@cs-magic/assistant-web@workspace:app_neurora-assistant/frontend_web"
+  resolution: "@cs-magic/assistant-web@workspace:app_assistant/frontend_web"
   dependencies:
     "@alicloud/dysmsapi20170525": "npm:2.0.24"
     "@alicloud/dysmsapi20180501": "npm:^1.0.4"

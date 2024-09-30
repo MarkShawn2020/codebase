@@ -3122,6 +3122,7 @@ __metadata:
     fumadocs-mdx: "npm:10.0.2"
     fumadocs-ui: "npm:13.4.10"
     next: "npm:*"
+    next-auth: "npm:^4.24.8"
     next-fonts: "npm:^1.5.1"
     npm-run-all: "npm:^4.1.5"
     postcss: "npm:^8.4.45"

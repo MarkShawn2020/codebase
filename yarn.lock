@@ -38307,6 +38307,27 @@ __metadata:
   languageName: node
   linkType: hard
 
+"test-fuma-usesidebar@workspace:tests/test-fuma-usesidebar":
+  version: 0.0.0-use.local
+  resolution: "test-fuma-usesidebar@workspace:tests/test-fuma-usesidebar"
+  dependencies:
+    "@types/mdx": "npm:^2.0.13"
+    "@types/node": "npm:22.5.4"
+    "@types/react": "npm:^18.3.5"
+    "@types/react-dom": "npm:^18.3.0"
+    autoprefixer: "npm:^10.4.20"
+    fumadocs-core: "npm:13.4.10"
+    fumadocs-mdx: "npm:10.0.2"
+    fumadocs-ui: "npm:13.4.10"
+    next: "npm:^14.2.8"
+    postcss: "npm:^8.4.45"
+    react: "npm:^18.3.1"
+    react-dom: "npm:^18.3.1"
+    tailwindcss: "npm:^3.4.10"
+    typescript: "npm:^5.5.4"
+  languageName: unknown
+  linkType: soft
+
 "test-value@npm:^2.0.0":
   version: 2.1.0
   resolution: "test-value@npm:2.1.0"

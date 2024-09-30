@@ -2613,9 +2613,9 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"@cs-magic/assistant-frontend-common@workspace:^, @cs-magic/assistant-frontend-common@workspace:apps/assistant-frontend-common":
+"@cs-magic/assistant-frontend-common@workspace:^, @cs-magic/assistant-frontend-common@workspace:apps/assistant-common":
   version: 0.0.0-use.local
-  resolution: "@cs-magic/assistant-frontend-common@workspace:apps/assistant-frontend-common"
+  resolution: "@cs-magic/assistant-frontend-common@workspace:apps/assistant-common"
   dependencies:
     "@cs-magic/assistant-backend": "workspace:^"
     "@cs-magic/common": "workspace:^"
@@ -2647,9 +2647,9 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"@cs-magic/assistant-pc@workspace:apps/assistant-frontend-pc":
+"@cs-magic/assistant-pc@workspace:apps/assistant-pc":
   version: 0.0.0-use.local
-  resolution: "@cs-magic/assistant-pc@workspace:apps/assistant-frontend-pc"
+  resolution: "@cs-magic/assistant-pc@workspace:apps/assistant-pc"
   dependencies:
     "@babel/core": "npm:^7.24.8"
     "@babel/preset-env": "npm:^7.24.8"
@@ -2700,9 +2700,9 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"@cs-magic/assistant-web@workspace:^, @cs-magic/assistant-web@workspace:apps/assistant-frontend-web":
+"@cs-magic/assistant-web@workspace:^, @cs-magic/assistant-web@workspace:apps/assistant-web":
   version: 0.0.0-use.local
-  resolution: "@cs-magic/assistant-web@workspace:apps/assistant-frontend-web"
+  resolution: "@cs-magic/assistant-web@workspace:apps/assistant-web"
   dependencies:
     "@alicloud/dysmsapi20170525": "npm:2.0.24"
     "@alicloud/dysmsapi20180501": "npm:^1.0.4"
@@ -38306,27 +38306,6 @@ __metadata:
   checksum: 10c0/019d33d81adff3f9f1bfcff18125fb2d3c65564f437d9be539270ee74b994986abb8260c7c2ce90e8f30162178b09dbbce33c6389273afac4f36069c48521f57
   languageName: node
   linkType: hard
-
-"test-fuma-usesidebar@workspace:tests/test-fuma-usesidebar":
-  version: 0.0.0-use.local
-  resolution: "test-fuma-usesidebar@workspace:tests/test-fuma-usesidebar"
-  dependencies:
-    "@types/mdx": "npm:^2.0.13"
-    "@types/node": "npm:22.5.4"
-    "@types/react": "npm:^18.3.5"
-    "@types/react-dom": "npm:^18.3.0"
-    autoprefixer: "npm:^10.4.20"
-    fumadocs-core: "npm:13.4.10"
-    fumadocs-mdx: "npm:10.0.2"
-    fumadocs-ui: "npm:13.4.10"
-    next: "npm:^14.2.8"
-    postcss: "npm:^8.4.45"
-    react: "npm:^18.3.1"
-    react-dom: "npm:^18.3.1"
-    tailwindcss: "npm:^3.4.10"
-    typescript: "npm:^5.5.4"
-  languageName: unknown
-  linkType: soft
 
 "test-value@npm:^2.0.0":
   version: 2.1.0

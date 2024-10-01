@@ -2891,6 +2891,7 @@ __metadata:
   dependencies:
     html2canvas: "npm:^1.4.1"
     modern-screenshot: "npm:^4.4.39"
+    qrcode.react: "npm:^4.0.1"
   languageName: unknown
   linkType: soft
 
@@ -3127,6 +3128,7 @@ __metadata:
     next-fonts: "npm:^1.5.1"
     npm-run-all: "npm:^4.1.5"
     postcss: "npm:^8.4.45"
+    qrcode.react: "npm:^4.0.1"
     react: "npm:*"
     react-dom: "npm:*"
     react-icons: "npm:^5.3.0"
@@ -33253,6 +33255,15 @@ __metadata:
   peerDependencies:
     react: ^16.8.0 || ^17.0.0 || ^18.0.0
   checksum: 10c0/86479ce19c7711baccf4a4d84ffddf008823e080f5209fc38c84b9d47435bc0568a81972e021eb147ee9dc3090638731f4169ec07a1e243185e5a548d75a18cc
+  languageName: node
+  linkType: hard
+
+"qrcode.react@npm:^4.0.1":
+  version: 4.0.1
+  resolution: "qrcode.react@npm:4.0.1"
+  peerDependencies:
+    react: ^16.8.0 || ^17.0.0 || ^18.0.0
+  checksum: 10c0/b4c1b8874f88dd1f42573c6c9d753d3ee3e8cd4ee799962e530ae51e7fad0b020a8bd3f016a6ab4f69e2151aadf019405b16e46c11f532c2b51fc4b8159fcc73
   languageName: node
   linkType: hard
 

@@ -3089,6 +3089,8 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "@cs-magic/exts_chrome_chatbot-exporter@workspace:apps/exts_chrome_chatbot-exporter"
   dependencies:
+    "@svgr/webpack": "npm:^8.1.0"
+    react-draggable: "npm:^4.4.6"
     webpack: "npm:^5.94.0"
   languageName: unknown
   linkType: soft
@@ -33569,7 +33571,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"react-draggable@npm:^4.4.3":
+"react-draggable@npm:^4.4.3, react-draggable@npm:^4.4.6":
   version: 4.4.6
   resolution: "react-draggable@npm:4.4.6"
   dependencies:

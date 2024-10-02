@@ -31748,6 +31748,25 @@ __metadata:
   languageName: node
   linkType: hard
 
+"playground@workspace:apps/playground":
+  version: 0.0.0-use.local
+  resolution: "playground@workspace:apps/playground"
+  dependencies:
+    "@types/node": "npm:^20"
+    "@types/react": "npm:^18"
+    "@types/react-dom": "npm:^18"
+    eslint: "npm:^8"
+    eslint-config-next: "npm:14.2.14"
+    next: "npm:14.2.14"
+    npm-run-all: "npm:^4.1.5"
+    postcss: "npm:^8"
+    react: "npm:^18"
+    react-dom: "npm:^18"
+    tailwindcss: "npm:^3.4.1"
+    typescript: "npm:^5"
+  languageName: unknown
+  linkType: soft
+
 "playwright-core@npm:*, playwright-core@npm:1.47.2, playwright-core@npm:^1.45.3":
   version: 1.47.2
   resolution: "playwright-core@npm:1.47.2"

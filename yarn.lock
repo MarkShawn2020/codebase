@@ -2862,6 +2862,7 @@ __metadata:
     postcss-import: "npm:^16.1.0"
     prisma: "npm:^5"
     shx: "npm:^0.3.4"
+    stripe: "npm:13.11.0"
     ts-patch: "npm:^3.2.1"
     ttypescript: "npm:^1.5.15"
     typescript: "npm:5.5.4"
@@ -2891,6 +2892,7 @@ __metadata:
   dependencies:
     html2canvas: "npm:^1.4.1"
     modern-screenshot: "npm:^4.4.39"
+    npm-run-all: "npm:*"
     qrcode.react: "npm:^4.0.1"
   languageName: unknown
   linkType: soft
@@ -3408,7 +3410,7 @@ __metadata:
     sharp: "npm:^0.32.5"
     solid-js: "npm:^1.8.22"
     sonner: "npm:^0.6.2"
-    stripe: "npm:^13.2.0"
+    stripe: "npm:13.11.0"
     superjson: "npm:1.12.2"
     svelte: "npm:^4.2.19"
     tailwind-merge: "npm:^1.14.0"
@@ -37385,7 +37387,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"stripe@npm:^13.2.0":
+"stripe@npm:13.11.0":
   version: 13.11.0
   resolution: "stripe@npm:13.11.0"
   dependencies:

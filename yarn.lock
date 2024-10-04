@@ -42244,6 +42244,24 @@ __metadata:
   languageName: node
   linkType: hard
 
+"zhijikeji@workspace:projects/zhijikeji":
+  version: 0.0.0-use.local
+  resolution: "zhijikeji@workspace:projects/zhijikeji"
+  dependencies:
+    "@types/node": "npm:^20"
+    "@types/react": "npm:^18"
+    "@types/react-dom": "npm:^18"
+    eslint: "npm:^8"
+    eslint-config-next: "npm:14.2.14"
+    next: "npm:14.2.14"
+    postcss: "npm:^8"
+    react: "npm:^18"
+    react-dom: "npm:^18"
+    tailwindcss: "npm:^3.4.1"
+    typescript: "npm:^5"
+  languageName: unknown
+  linkType: soft
+
 "zhipuai-sdk-nodejs-v4@npm:^0.1.12":
   version: 0.1.12
   resolution: "zhipuai-sdk-nodejs-v4@npm:0.1.12"

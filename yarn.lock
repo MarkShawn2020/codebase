@@ -3774,9 +3774,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@cs-magic/assistant-backend@workspace:^, @cs-magic/assistant-backend@workspace:apps/neurora-assistant/backend":
+"@cs-magic/assistant-backend@workspace:^, @cs-magic/assistant-backend@workspace:apps/neurora_assistant/backend":
   version: 0.0.0-use.local
-  resolution: "@cs-magic/assistant-backend@workspace:apps/neurora-assistant/backend"
+  resolution: "@cs-magic/assistant-backend@workspace:apps/neurora_assistant/backend"
   dependencies:
     "@cs-magic/common": "workspace:^"
     "@cs-magic/llm": "workspace:^"
@@ -3800,9 +3800,9 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"@cs-magic/assistant-frontend-common@workspace:^, @cs-magic/assistant-frontend-common@workspace:apps/neurora-assistant/frontend/common":
+"@cs-magic/assistant-frontend-common@workspace:^, @cs-magic/assistant-frontend-common@workspace:apps/neurora_assistant/frontend/common":
   version: 0.0.0-use.local
-  resolution: "@cs-magic/assistant-frontend-common@workspace:apps/neurora-assistant/frontend/common"
+  resolution: "@cs-magic/assistant-frontend-common@workspace:apps/neurora_assistant/frontend/common"
   dependencies:
     "@cs-magic/assistant-backend": "workspace:^"
     "@cs-magic/common": "workspace:^"
@@ -3834,9 +3834,9 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"@cs-magic/assistant-pc@workspace:apps/neurora-assistant/frontend/pc":
+"@cs-magic/assistant-pc@workspace:apps/neurora_assistant/frontend/pc":
   version: 0.0.0-use.local
-  resolution: "@cs-magic/assistant-pc@workspace:apps/neurora-assistant/frontend/pc"
+  resolution: "@cs-magic/assistant-pc@workspace:apps/neurora_assistant/frontend/pc"
   dependencies:
     "@babel/core": "npm:^7.24.8"
     "@babel/preset-env": "npm:^7.24.8"
@@ -3888,9 +3888,9 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"@cs-magic/assistant-web@workspace:^, @cs-magic/assistant-web@workspace:apps/neurora-assistant/frontend/web":
+"@cs-magic/assistant-web@workspace:^, @cs-magic/assistant-web@workspace:apps/neurora_assistant/frontend/web":
   version: 0.0.0-use.local
-  resolution: "@cs-magic/assistant-web@workspace:apps/neurora-assistant/frontend/web"
+  resolution: "@cs-magic/assistant-web@workspace:apps/neurora_assistant/frontend/web"
   dependencies:
     "@alicloud/dysmsapi20170525": "npm:2.0.24"
     "@alicloud/dysmsapi20180501": "npm:^1.0.4"
@@ -4167,9 +4167,9 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"@cs-magic/eval-ai-web@workspace:apps/eval-ai":
+"@cs-magic/eval-ai-web@workspace:apps/cs-magic/eval-ai":
   version: 0.0.0-use.local
-  resolution: "@cs-magic/eval-ai-web@workspace:apps/eval-ai"
+  resolution: "@cs-magic/eval-ai-web@workspace:apps/cs-magic/eval-ai"
   dependencies:
     "@alicloud/dysmsapi20170525": "npm:2.0.24"
     "@alicloud/dysmsapi20180501": "npm:^1.0.4"
@@ -4277,9 +4277,9 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"@cs-magic/exts_chrome_chatbot-exporter@workspace:plugins/exts_chrome_chatbot-exporter":
+"@cs-magic/exts_chrome_chatbot-exporter@workspace:apps/exts/chrome/chatbot-exporter":
   version: 0.0.0-use.local
-  resolution: "@cs-magic/exts_chrome_chatbot-exporter@workspace:plugins/exts_chrome_chatbot-exporter"
+  resolution: "@cs-magic/exts_chrome_chatbot-exporter@workspace:apps/exts/chrome/chatbot-exporter"
   dependencies:
     "@svgr/webpack": "npm:^8.1.0"
     react-draggable: "npm:^4.4.6"
@@ -4287,9 +4287,9 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"@cs-magic/exts_chrome_claude-artifact-enhancer@workspace:plugins/exts_chrome_claude-artifact-enhancer":
+"@cs-magic/exts_chrome_claude-artifact-enhancer@workspace:apps/exts/chrome/claude-artifact-enhancer":
   version: 0.0.0-use.local
-  resolution: "@cs-magic/exts_chrome_claude-artifact-enhancer@workspace:plugins/exts_chrome_claude-artifact-enhancer"
+  resolution: "@cs-magic/exts_chrome_claude-artifact-enhancer@workspace:apps/exts/chrome/claude-artifact-enhancer"
   dependencies:
     "@cs-magic/common-frontend": "workspace:^"
     "@cs-magic/shadcn": "workspace:^"
@@ -4304,9 +4304,9 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"@cs-magic/home-v2@workspace:apps/neurora-home/v2":
+"@cs-magic/home-v2@workspace:apps/neurora_home/v2":
   version: 0.0.0-use.local
-  resolution: "@cs-magic/home-v2@workspace:apps/neurora-home/v2"
+  resolution: "@cs-magic/home-v2@workspace:apps/neurora_home/v2"
   dependencies:
     "@cs-magic/shadcn": "workspace:^"
     "@next/font": "npm:^13.5.4"
@@ -4343,9 +4343,9 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"@cs-magic/home@workspace:apps/neurora-home/v1":
+"@cs-magic/home@workspace:apps/neurora_home/v1":
   version: 0.0.0-use.local
-  resolution: "@cs-magic/home@workspace:apps/neurora-home/v1"
+  resolution: "@cs-magic/home@workspace:apps/neurora_home/v1"
   dependencies:
     "@types/mdx": "npm:^2.0.13"
     "@types/node": "npm:*"
@@ -4400,9 +4400,9 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"@cs-magic/open-agent-ui@workspace:apps/thinkow/frontend":
+"@cs-magic/open-agent-ui@workspace:apps/cs-magic/thinkow/frontend":
   version: 0.0.0-use.local
-  resolution: "@cs-magic/open-agent-ui@workspace:apps/thinkow/frontend"
+  resolution: "@cs-magic/open-agent-ui@workspace:apps/cs-magic/thinkow/frontend"
   dependencies:
     "@mantine/hooks": "npm:^7.2.2"
     "@microsoft/fetch-event-source": "npm:^2.0.1"
@@ -4488,9 +4488,9 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"@cs-magic/open-agi@workspace:apps/thinkow/backend":
+"@cs-magic/open-agi@workspace:apps/cs-magic/thinkow/backend":
   version: 0.0.0-use.local
-  resolution: "@cs-magic/open-agi@workspace:apps/thinkow/backend"
+  resolution: "@cs-magic/open-agi@workspace:apps/cs-magic/thinkow/backend"
   dependencies:
     "@cs-magic/react": "workspace:^"
     "@mantine/hooks": "npm:^7.3.1"
@@ -4536,9 +4536,9 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"@cs-magic/poketto-web@workspace:apps/poketto":
+"@cs-magic/poketto-web@workspace:apps/cs-magic/poketto":
   version: 0.0.0-use.local
-  resolution: "@cs-magic/poketto-web@workspace:apps/poketto"
+  resolution: "@cs-magic/poketto-web@workspace:apps/cs-magic/poketto"
   dependencies:
     "@alicloud/dysmsapi20170525": "npm:^2.0.24"
     "@aws-sdk/client-ses": "npm:^3.395.0"
@@ -34772,9 +34772,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"playground@workspace:apps/neurora-playground":
+"playground@workspace:apps/neurora_playground":
   version: 0.0.0-use.local
-  resolution: "playground@workspace:apps/neurora-playground"
+  resolution: "playground@workspace:apps/neurora_playground"
   dependencies:
     "@types/node": "npm:^20"
     "@types/react": "npm:^18"
@@ -38973,9 +38973,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"screensaver@workspace:apps/screensaver":
+"screensaver@workspace:apps/screen-saver":
   version: 0.0.0-use.local
-  resolution: "screensaver@workspace:apps/screensaver"
+  resolution: "screensaver@workspace:apps/screen-saver"
   dependencies:
     "@cs-magic/shadcn": "workspace:^"
     "@tauri-apps/api": "npm:^1"

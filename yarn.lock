@@ -4308,6 +4308,7 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "@cs-magic/home-v2@workspace:apps/neurora_home/v2"
   dependencies:
+    "@cs-magic/react": "workspace:^"
     "@cs-magic/shadcn": "workspace:^"
     "@next/font": "npm:^13.5.4"
     "@next/mdx": "npm:^13.5.4"

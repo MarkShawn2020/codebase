@@ -4312,6 +4312,7 @@ __metadata:
     "@next/font": "npm:^13.5.4"
     "@next/mdx": "npm:^13.5.4"
     "@opentelemetry/api": "npm:*"
+    "@svgr/webpack": "npm:^8.1.0"
     "@tailwindcss/line-clamp": "npm:^0.4.4"
     "@tailwindcss/typography": "npm:^0.5.10"
     "@types/node": "npm:*"

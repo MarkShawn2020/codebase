@@ -4092,7 +4092,9 @@ __metadata:
   resolution: "@cs-magic/common@workspace:packages/common"
   dependencies:
     "@alicloud/dysmsapi20170525": "npm:^3.0.0"
+    "@cs-magic/shadcn": "workspace:^"
     "@prisma/client": "npm:*"
+    "@stripe/stripe-js": "npm:^4.7.0"
     "@types/ali-oss": "npm:^6.16.11"
     "@types/ansicolors": "npm:^0"
     "@types/async-lock": "npm:^1.4.2"
@@ -4109,6 +4111,7 @@ __metadata:
     async-lock: "npm:^1.4.1"
     axios: "npm:^1.7.2"
     clsx: "npm:^2.1.1"
+    dayjs: "npm:^1.11.13"
     https-proxy-agent: "npm:^7.0.5"
     ioredis: "npm:^5.4.1"
     js-sha1: "npm:^0.7.0"
@@ -11872,6 +11875,13 @@ __metadata:
   version: 2.4.0
   resolution: "@stripe/stripe-js@npm:2.4.0"
   checksum: 10c0/010849482974f80526528580e9d711082ab52784a14f99356bd4fcbdd9067c1963d6cf667ea3b0209633236f80db6aadd20c34c8cdd7d106865805deb2ae752b
+  languageName: node
+  linkType: hard
+
+"@stripe/stripe-js@npm:^4.7.0":
+  version: 4.7.0
+  resolution: "@stripe/stripe-js@npm:4.7.0"
+  checksum: 10c0/e018f462dc0846c31a58063d9439923cdce2404d06514bebed5810a350f2993708bf22a901c2ea34097251bf2b5262a64229d52a23ce34a8bf542aeaf0562198
   languageName: node
   linkType: hard
 
@@ -20312,7 +20322,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"dayjs@npm:^1.11.9":
+"dayjs@npm:^1.11.13, dayjs@npm:^1.11.9":
   version: 1.11.13
   resolution: "dayjs@npm:1.11.13"
   checksum: 10c0/a3caf6ac8363c7dade9d1ee797848ddcf25c1ace68d9fe8678ecf8ba0675825430de5d793672ec87b24a69bf04a1544b176547b2539982275d5542a7955f35b7

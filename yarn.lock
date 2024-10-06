@@ -4332,6 +4332,7 @@ __metadata:
     postcss-nesting: "npm:^12.0.1"
     react: "npm:^18.2.0"
     react-dom: "npm:^18.2.0"
+    react-image-lightbox: "npm:^5.1.4"
     react-wrap-balancer: "npm:^1.1.0"
     rehype-autolink-headings: "npm:^7.0.0"
     rehype-pretty-code: "npm:^0.10.1"
@@ -4342,6 +4343,7 @@ __metadata:
     tailwindcss: "npm:^3.3.3"
     tailwindcss-debug-screens: "npm:^2.2.1"
     typescript: "npm:^5.2.2"
+    yet-another-react-lightbox: "npm:^3.21.6"
   languageName: unknown
   linkType: soft
 
@@ -22991,6 +22993,13 @@ __metadata:
   languageName: node
   linkType: hard
 
+"exenv@npm:^1.2.0":
+  version: 1.2.2
+  resolution: "exenv@npm:1.2.2"
+  checksum: 10c0/4e96b355a6b9b9547237288ca779dd673b2e698458b409e88b50df09feb7c85ef94c07354b6b87bc3ed0193a94009a6f7a3c71956da12f45911c0d0f5aa3caa0
+  languageName: node
+  linkType: hard
+
 "exif-parser@npm:^0.1.12":
   version: 0.1.12
   resolution: "exif-parser@npm:0.1.12"
@@ -36718,6 +36727,19 @@ __metadata:
   languageName: node
   linkType: hard
 
+"react-image-lightbox@npm:^5.1.4":
+  version: 5.1.4
+  resolution: "react-image-lightbox@npm:5.1.4"
+  dependencies:
+    prop-types: "npm:^15.7.2"
+    react-modal: "npm:^3.11.1"
+  peerDependencies:
+    react: 16.x || 17.x
+    react-dom: 16.x || 17.x
+  checksum: 10c0/526fb24249979b0df8be51f436a3fc2cf8c52802be9cdc7a3e75e8d229ca93e135d17e8b7ea29a2f98669ff31cca3605636515e454d5e5897f1770c6cba556a2
+  languageName: node
+  linkType: hard
+
 "react-is@npm:^16.10.2, react-is@npm:^16.13.1, react-is@npm:^16.7.0, react-is@npm:^16.8.1":
   version: 16.13.1
   resolution: "react-is@npm:16.13.1"
@@ -36750,6 +36772,13 @@ __metadata:
     "@types/react": ^16.8.0 || ^17.0.0 || ^18.0.0
     react: ^16.8.0 || ^17.0.0 || ^18.0.0
   checksum: 10c0/628c76339bd47dee0dbc378d57eb07051b4e2cd52f8b0794f640bed8fd33a64b2573035e298cae6ca8a8b3e969eb122fc74d2fabe738be10080f8cd5e0497589
+  languageName: node
+  linkType: hard
+
+"react-lifecycles-compat@npm:^3.0.0":
+  version: 3.0.4
+  resolution: "react-lifecycles-compat@npm:3.0.4"
+  checksum: 10c0/1d0df3c85af79df720524780f00c064d53a9dd1899d785eddb7264b378026979acbddb58a4b7e06e7d0d12aa1494fd5754562ee55d32907b15601068dae82c27
   languageName: node
   linkType: hard
 
@@ -36816,6 +36845,21 @@ __metadata:
     react: ^16.8.0 || ^17.0.0 || ^18.0.0
     react-dom: ^16.8.0 || ^17.0.0 || ^18.0.0
   checksum: 10c0/80e84ef7a87fea7f82ef93c54ac6cc9811da15f4d7526e99fba6deabfc7b7236cb16c0b0f03d3f0ec3c2626fdbbef59891deb1f8cd16b634cdf0cde22d43a1c3
+  languageName: node
+  linkType: hard
+
+"react-modal@npm:^3.11.1":
+  version: 3.16.1
+  resolution: "react-modal@npm:3.16.1"
+  dependencies:
+    exenv: "npm:^1.2.0"
+    prop-types: "npm:^15.7.2"
+    react-lifecycles-compat: "npm:^3.0.0"
+    warning: "npm:^4.0.3"
+  peerDependencies:
+    react: ^0.14.0 || ^15.0.0 || ^16 || ^17 || ^18
+    react-dom: ^0.14.0 || ^15.0.0 || ^16 || ^17 || ^18
+  checksum: 10c0/7b56e2c505b2b924736c471a34754a4211df40ac2d6fb0949cf095aea5e65d3326bd9f111fa7898acf40afa54f526809ad8aa47e02b8328663d11422568dc7b1
   languageName: node
   linkType: hard
 
@@ -45013,6 +45057,16 @@ __metadata:
     buffer-crc32: "npm:~0.2.3"
     fd-slicer: "npm:~1.1.0"
   checksum: 10c0/f265002af7541b9ec3589a27f5fb8f11cf348b53cc15e2751272e3c062cd73f3e715bc72d43257de71bbaecae446c3f1b14af7559e8ab0261625375541816422
+  languageName: node
+  linkType: hard
+
+"yet-another-react-lightbox@npm:^3.21.6":
+  version: 3.21.6
+  resolution: "yet-another-react-lightbox@npm:3.21.6"
+  peerDependencies:
+    react: ">=16.8.0"
+    react-dom: ">=16.8.0"
+  checksum: 10c0/5488949baf3a03a78a450a50b1e490f1d9baa1ccc79e95bdff35e1dc781121889cfff6a2087da1396547003b7bf22d46050375e58bbb840d86350677a8d4fe93
   languageName: node
   linkType: hard
 

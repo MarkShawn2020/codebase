@@ -4171,9 +4171,9 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"@cs-magic/eval-ai-web@workspace:apps/cs-magic/eval-ai":
+"@cs-magic/eval-ai@workspace:apps/cs-magic/eval-ai":
   version: 0.0.0-use.local
-  resolution: "@cs-magic/eval-ai-web@workspace:apps/cs-magic/eval-ai"
+  resolution: "@cs-magic/eval-ai@workspace:apps/cs-magic/eval-ai"
   dependencies:
     "@alicloud/dysmsapi20170525": "npm:2.0.24"
     "@alicloud/dysmsapi20180501": "npm:^1.0.4"
@@ -4245,6 +4245,7 @@ __metadata:
     next: "npm:^14.0.4"
     next-auth: "npm:^4.22.1"
     next-themes: "npm:*"
+    npm-run-all: "npm:^4.1.5"
     postcss: "npm:^8.4.34"
     prettier: "npm:*"
     prisma: "npm:*"
@@ -4550,6 +4551,26 @@ __metadata:
     tailwindcss-animate: "npm:^1.0.7"
     typescript: "npm:*"
     zod: "npm:*"
+  languageName: unknown
+  linkType: soft
+
+"@cs-magic/playground@workspace:apps/neurora_playground":
+  version: 0.0.0-use.local
+  resolution: "@cs-magic/playground@workspace:apps/neurora_playground"
+  dependencies:
+    "@types/node": "npm:^20"
+    "@types/react": "npm:^18"
+    "@types/react-dom": "npm:^18"
+    eslint: "npm:^8"
+    eslint-config-next: "npm:14.2.14"
+    lucide-react: "npm:^0.447.0"
+    next: "npm:14.2.14"
+    npm-run-all: "npm:^4.1.5"
+    postcss: "npm:^8"
+    react: "npm:^18"
+    react-dom: "npm:^18"
+    tailwindcss: "npm:^3.4.1"
+    typescript: "npm:^5"
   languageName: unknown
   linkType: soft
 
@@ -35093,25 +35114,6 @@ __metadata:
   checksum: 10c0/69f2eb692e15f1a343dd0d9347babd9ca933824c8673096be746ff66f99f2bdc909fadd8609076132e6ec768349080babb7362299f2a7f885b98f1254ae6224b
   languageName: node
   linkType: hard
-
-"playground@workspace:apps/neurora_playground":
-  version: 0.0.0-use.local
-  resolution: "playground@workspace:apps/neurora_playground"
-  dependencies:
-    "@types/node": "npm:^20"
-    "@types/react": "npm:^18"
-    "@types/react-dom": "npm:^18"
-    eslint: "npm:^8"
-    eslint-config-next: "npm:14.2.14"
-    next: "npm:14.2.14"
-    npm-run-all: "npm:^4.1.5"
-    postcss: "npm:^8"
-    react: "npm:^18"
-    react-dom: "npm:^18"
-    tailwindcss: "npm:^3.4.1"
-    typescript: "npm:^5"
-  languageName: unknown
-  linkType: soft
 
 "playwright-core@npm:*, playwright-core@npm:1.47.2, playwright-core@npm:^1.45.3":
   version: 1.47.2
